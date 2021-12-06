@@ -6,7 +6,7 @@
 <b>Discipline | <b> Engineering
 :--|:--|
 <b> Lab | <b> Surveying
-<b> Experiment|     <b> 9. 	Carry out Fly Leveling using Auto Level.
+<b> Experiment|     <b> 8. 	Carry out Fly Leveling using Auto Level.
 
 <h5> About the Experiment : </h5> <br>
 
