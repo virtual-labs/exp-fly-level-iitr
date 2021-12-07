@@ -2,12 +2,11 @@
 #### Please attempt the following questions
 
 <br>
-Q1.Which of the following angles can be set out with the help of French
-cross staff?<br>
-<b>A   either 45deg or 90deg</b><br>
-B   45deg only<br>
-C   90deg only<br>
-D   any angle<br>
+Q1. A fixed point of reference of known elevation is known as:<br>
+<b>A   Bench Mark</b><br>
+B   Datum<br>
+C   Change point<br>
+D   Station point<br>
 <br><br>
 
 Q2. Which of the following methods of offsets involves less measurement
