@@ -8,12 +8,15 @@ Fly levelling is a process of finding the level difference between two points an
 2) The positions of the points are plotted on the paper by measuring the distances to the different objects using a tape and by plotting these distances to a scale along the rays drawn to the respective objects using alidale.<br>
 <br>
 
-### Equipments Used <br>
+### Equipments Used 
+<br>
 1) Auto level with tripod.<br>
 2) Graduated Staff.<br>
-3) Measuring Tape.<br><br>
+3) Measuring Tape.<br>
+<br>
 
-### Dos and Don'ts<br>
+### Dos and Don'ts
+<br>
 
 #### Dos<br>
 1) Center and level the base of plane table accurately.<br>
