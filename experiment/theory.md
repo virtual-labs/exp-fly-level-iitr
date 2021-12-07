@@ -1,6 +1,6 @@
 ### Introduction
 <br>
-Fly levelling is a process of finding the level difference between two points and the levelling consists of taking back sights and fore sights only and not intermediate sights. Differential levelling is the determination of level difference between two points; check levelling is ﬁnding the level difference between points in a way of checking the accuracy of levelling works already done, and fly levelling is the procedure of accomplishing the objective of ﬁnding out the level difference between two points, which are far apart. It can also be used for transferring a benchmark.<br><br>
+Fly levelling is a process of finding the level difference between two points and the levelling consists of taking back sights and fore sights only and not intermediate sights. Differential levelling is the determination of level difference between two points; check levelling is finding the level difference between points in a way of checking the accuracy of levelling works already done, and fly levelling is the procedure of accomplishing the objective of finding out the level difference between two points, which are far apart. It can also be used for transferring a benchmark.<br><br>
 
 ### Principle 
 <br>
