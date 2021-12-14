@@ -70,6 +70,7 @@ function init() {
         setTimeout(function(){document.getElementById("staff_maina").style.display = "inline";}, 1500);
         setTimeout(function(){swal("Please click on the staff placed at point A");}, 2000);
         document.getElementById("t").style.visibility = "visible";
+        document.getElementById("table_head").style.display = "inline";
         setTimeout(function(){document.getElementById("v11").style.visibility = "visible"; }, 1500);
         setTimeout(function(){document.getElementById("v11").style.backgroundColor = "blanchedalmond"; }, 1500);
         setTimeout(function(){document.getElementById("v13").style.visibility = "visible"; }, 2000);
