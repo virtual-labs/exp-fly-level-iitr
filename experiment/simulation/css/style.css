@@ -139,7 +139,7 @@
         border: 3px solid black;
         border-radius: 10px;
         cursor: pointer;
-    display: none;
+        display: none;
     } 
 #flash_based{
         background-color: #23B2EE;
@@ -218,11 +218,11 @@
                  
                 #back_2{
                     margin-left: 870px;
-                  margin-top: 630px;
+                    margin-top: 630px;
                     height: 50px;
                     width:100px;
                     font-size: large;
-                     color: black;
+                    color: black;
                     background-color: #23B2EE;
                     font-weight: bold;
                     border: 3px solid black;
@@ -330,10 +330,10 @@
                     width: 200px;
                 }
                 #flag_heading{
-                    font-size: 23px;
+                     font-size: 23px;
                      margin-left:20px ;
                      margin-top: 50px;
-                    color: red;
+                     color: red;
                     }
                     #flag_para{
                         padding-left:20px;
@@ -347,8 +347,8 @@
                        
             #tape_heading{
                 font-size: 23px;
-               margin-left: 20px;
-                 margin-top: 50px;
+                margin-left: 20px;
+                margin-top: 50px;
                 color: red;
                 }
                 #tape_para{
@@ -386,7 +386,6 @@
    font-weight: bold;
    font-size: 15px;
    border-radius: 5px;
-   
    cursor: pointer;
    background-color: 	#2e5073;
    color: whitesmoke;
@@ -432,15 +431,15 @@ margin-left: 5px;
     height: 70px;
     width: 150px;
     z-index: 1;
-   color: azure;
+    color: azure;
 }
 
 #pointb{
     height:70px;
     width:50px;
-position: absolute;
-margin-left: 380px;
-margin-top: 225px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 225px;
 }
 #b{
     font-size: medium;
@@ -452,11 +451,11 @@ margin-top: 225px;
     height: 70px;
     width: 150px;
     z-index: 1;
-   color: azure;
+    color: azure;
 }
 
 #pointc{
-    height:70px;
+height:70px;
 width:50px;
 position: absolute;
 margin-left: 800px;
@@ -805,7 +804,7 @@ margin-top: 60px;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 650px;
+    margin-top: 670px;
     cursor: pointer;
     background-color: 	#2e5073;
     color: whitesmoke;
@@ -824,7 +823,7 @@ margin-top: 60px;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 650px;
+    margin-top: 670px;
     cursor: pointer;
     background-color: 	#2e5073;
     color: whitesmoke;
@@ -843,7 +842,7 @@ margin-top: 60px;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 650px;
+    margin-top: 670px;
     cursor: pointer;
     background-color: 	#2e5073;
     color: whitesmoke;
@@ -859,9 +858,22 @@ margin-top: 60px;
     position: absolute;
     margin-top:460px;
     float:left;
-    margin-left: 420px;
+    margin-left: 585px;
     transform: rotateY(-30deg);
     cursor: pointer;
+    pointer-events: none;
+}
+#autolevel_main2{
+    height: 60px;
+    width:65px;
+    position: absolute;
+    margin-top:460px;
+    float:left;
+    margin-left: 585px;
+    transform: rotateY(-30deg);
+    cursor: pointer;
+    transform:translate(750px,-20px);
+    display: none;
 }
 #autolevel_l{
     font-size:21px;
@@ -875,13 +887,35 @@ margin-top: 60px;
     padding-right: 5px;
     font-weight: bolder;
     position: absolute;
-    margin-left: 550px;
+    margin-left: 700px;
     margin-top: 450px;
     white-space: nowrap;
-   display: none;
+    display: none;
    opacity: 0.9;
 }
 #autolevel_main:hover + #autolevel_l{
+    display: inline-block;
+}
+#autolevel_l2{
+    font-size:21px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: blanchedalmond;
+    height: 30px;
+    width:85px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 450px;
+    white-space: nowrap;
+    display: none;
+   opacity: 0.9;
+   transform:translate(750px,0px);
+}
+#autolevel_main2:hover + #autolevel_l2{
     display: inline-block;
 }
 #tri_img_main{
@@ -889,8 +923,19 @@ margin-top: 60px;
     width:130px;
     position: absolute;
     margin-top: 520px;
-    margin-left: 395px;
+    margin-left: 560px;
     cursor: pointer;
+    pointer-events: none;
+}
+#tri_img_main2{
+    height: 160px;
+    width:130px;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 560px;
+    cursor: pointer;
+    transform:translate(750px,-20px);
+    display: none;
 }
 #tripod_l{
     font-size:21px;
@@ -904,13 +949,36 @@ margin-top: 60px;
     padding-right: 5px;
     font-weight: bolder;
     position: absolute;
-    margin-left: 550px;
+    margin-left: 700px;
     margin-top: 610px;
+    display: none;
     white-space: nowrap;
-   display: none;
+   
    opacity: 0.9;
 }
 #tri_img_main:hover + #tripod_l{
+    display: inline-block;
+}
+#tripod_l2{
+    font-size:21px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: blanchedalmond;
+    height: 30px;
+    width:60px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 610px;
+    display: none;
+    white-space: nowrap;
+    transform:translate(750px,0px);
+   opacity: 0.9;
+}
+#tri_img_main2:hover + #tripod_l2{
     display: inline-block;
 }
 #equip_setting{
@@ -959,7 +1027,16 @@ margin-top: 60px;
     height:150px;
     width:150px;
     cursor: pointer;
-    display: none;
+    display:none;
+    z-index:1;
+}
+#bench1{
+    height: 200px;
+    width:100px;
+    position: absolute;
+    transform: rotateX(86deg);
+    margin-top: 400px;
+    margin-left: 355px;
 }
 #staff_mainb{
     margin-top: 360px;
@@ -967,8 +1044,17 @@ margin-top: 60px;
     position: absolute;
     height:150px;
     width:150px;
-    display: none;
+    z-index:1;
+    display:none;
     cursor: pointer;
+}
+#bench2{
+    height: 200px;
+    width:100px;
+    position: absolute;
+    transform: rotateX(86deg);
+    margin-top: 405px;
+    margin-left: 773px;
 }
 #staff_mainc{
     margin-top: 360px;
@@ -976,8 +1062,38 @@ margin-top: 60px;
     position: absolute;
     height:150px;
     width:150px;
-    display: none;
+    z-index: 1;
     cursor: pointer;
+    display: none;
+}
+#bench3{
+    height: 200px;
+    width:100px;
+    position: absolute;
+    transform: rotateX(86deg);
+    margin-top: 405px;
+    margin-left: 1130px;
+}
+#staff_mainc2{
+    margin-top: 360px;
+    margin-left: 1100px;
+    position: absolute;
+    height:150px;
+    width:150px;
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+    transform:translate(0px,65px);
+}
+#bench32{
+    height: 200px;
+    width:100px;
+    position: absolute;
+    transform: rotateX(86deg);
+    margin-top: 405px;
+    margin-left: 1130px;
+    transform:translate(0px,65px)rotateX(86deg);
+    display: none;
 }
 #staff_maind{
     margin-top: 360px;
@@ -985,9 +1101,19 @@ margin-top: 60px;
     position: absolute;
     height:150px;
     width:150px;
-  display: none;
+    z-index:1;
     cursor: pointer;
+    display: none;
 }
+#bench4{
+    height: 200px;
+    width:100px;
+    position: absolute;
+    transform: rotateX(86deg);
+    margin-top: 405px;
+    margin-left: 1490px;
+}
+
 #alidade_img{
     height: 150px;
     width:240px;
@@ -1075,33 +1201,27 @@ display: none;
     display: none;
   
  }
+ #t{
+     visibility: hidden;
+ }
  table{
         position: absolute;
-        width:240px;
+        width:190px;
         height:150px;
-        padding-left: 37px;
-        padding-top: 18px;
         margin-left: 20px;
         text-align: center;
-        margin-top: 353px;
-        display: none;
-        background-color: white;
+        margin-top: 53px;
+        border-collapse: collapse;
+        background-color:white;
         border:solid 2px black;
       }
- tr,td,th
- {
-        font-weight: bolder;
- }
  th{
-        background-color: #00A572;
-        color: whitesmoke;
-        font-size:15px ;
- }
-#t2,#t4{
-        background-color: #E2E5DE;
+     background-color: burlywood;
+     font-weight: bolder;
+   
  }
  td{
-        font-size: 15px;
+    font-weight: bolder;
  }
  #cap{
         position: absolute;
@@ -1130,4 +1250,8 @@ display: none;
 {
     background-color: #009dff;
     color: black;
+}
+
+#v11,#v12,#v13,#v21,#v22,#v23,#v31,#v32,#v33,#v41,#v42,#v43,#v51,#v52,#v53{
+    visibility: hidden;
 }

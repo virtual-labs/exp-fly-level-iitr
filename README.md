@@ -6,11 +6,11 @@
 <b>Discipline | <b> Engineering
 :--|:--|
 <b> Lab | <b> Surveying
-<b> Experiment|     <b> 8. 	Carry out Fly Leveling using Auto Level.
+<b> Experiment|     <b> 8. 	Carry out fly leveling using auto level.
 
 <h5> About the Experiment : </h5> <br>
 
-To find out elevations of various points on the ground using Auto Level.
+To find out elevations of various points on the ground using auto level.
 
 <b>Name of Developer | <b> R.S. Anand
 :--|:--|
