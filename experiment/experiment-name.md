@@ -1,1 +1,1 @@
-## Carry out Fly Leveling using Auto Level.
+## Carry out fly leveling using auto level.
