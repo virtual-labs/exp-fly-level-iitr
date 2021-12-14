@@ -519,8 +519,8 @@ margin-top: 245px;
     margin-left: 395px;
 }
 #autolevel{
-    height: 80px;
-    width:65px;
+    height: 100px;
+    width:100px;
     position: absolute;
     margin-top: 610px;
     float:left;
@@ -555,8 +555,8 @@ margin-top: 245px;
    
 }
 #autolevel2{
-    height: 80px;
-    width:65px;
+    height: 100px;
+    width:100px;
     position: absolute;
     margin-top: 560px;
     float:left;
@@ -853,28 +853,30 @@ margin-top: 60px;
     color: black;
 } 
 #autolevel_main{
-    height: 60px;
-    width:65px;
+    height: 170px;
+    width:100px;
     position: absolute;
-    margin-top:460px;
+    margin-top:410px;
     float:left;
-    margin-left: 585px;
-    transform: rotateY(-30deg);
+    margin-left: 570px;
+    transform: rotateX(65deg);
     cursor: pointer;
     pointer-events: none;
 }
 #autolevel_main2{
-    height: 60px;
-    width:65px;
+    height: 80px;
+    width:100px;
     position: absolute;
-    margin-top:460px;
+    margin-top:450px;
     float:left;
-    margin-left: 585px;
-    transform: rotateY(-30deg);
+    margin-left: 570px;
+    transform: rotateX(-75deg);
     cursor: pointer;
+    pointer-events: none;
     transform:translate(750px,-20px);
     display: none;
 }
+
 #autolevel_l{
     font-size:21px;
     border-radius: 5px;
@@ -935,7 +937,7 @@ margin-top: 60px;
     margin-left: 560px;
     cursor: pointer;
     transform:translate(750px,-20px);
-    display: none;
+   display: none;
 }
 #tripod_l{
     font-size:21px;
@@ -1123,7 +1125,8 @@ margin-top: 60px;
     border-radius: 5px;
     display: none;
     cursor: pointer;
-    border: 3px solid black;
+    border:5px solid black
+   
 }
 #stand_img{
     height:70px;

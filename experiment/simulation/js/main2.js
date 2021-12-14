@@ -61,7 +61,7 @@ var objImage6 = null;
     function moveLeft() {
          objImage2.style.left = parseInt(objImage2.style.left) - 1 + "px";
           
-    if(document.getElementById("autolevel2").style.left === "126px" && document.getElementById("autolevel2").style.top === "-189px")
+    if(document.getElementById("autolevel2").style.left === "108px" && document.getElementById("autolevel2").style.top === "-208px")
     {
         
         document.getElementById("level_setting").style.display = "inline";
@@ -72,7 +72,7 @@ var objImage6 = null;
         swal("Click on LEVEL SETUP Button");
     }
     else
-    if(document.getElementById("autolevel2").style.left === "126px" && document.getElementById("autolevel2").style.top === "-188px")
+    if(document.getElementById("autolevel2").style.left === "109px" && document.getElementById("autolevel2").style.top === "-208px")
     {
         document.getElementById("level_setting").style.display = "inline";
         document.getElementById("tri_img2").style.display = "none";
@@ -82,7 +82,7 @@ var objImage6 = null;
       swal("Click on LEVEL SETUP Button");
     }
     else
-    if(document.getElementById("autolevel2").style.left === "127px" && document.getElementById("autolevel2").style.top === "-190px")
+    if(document.getElementById("autolevel2").style.left === "108px" && document.getElementById("autolevel2").style.top === "-209px")
     {
         document.getElementById("level_setting").style.display = "inline";
         document.getElementById("tri_img2").style.display = "none";
