@@ -1,0 +1,49 @@
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body onkeydown="getKeyAndMove(event)">
+
+<div id="main_ob_plot2">
+    <button id="ins">INSTRUCTIONS</button>
+         <span id="ins_span"><b>1.</b>  Click on <b>EQUIPMENT SETUP</b> Button.<br><br>
+<b>2.</b> After this, you need to setup autolevel instrument by placing it on the tripod using keyboard keys i.e. q:left movement,w:right movement,s:up movement,x:down movement.<br><br>
+<b>3.</b> After this, click on <b>LEVEL SETUP</b> Button & setup blue bubble dot to the center by using keyboard keys i.e.l:left movement,r:right movement,u:up movement,d:down movement.<br><br>
+<b>4.</b> After this, click on the <b>NEXT</b> Button.<br><br>
+<b>5.</b> Click on the <b>START</b> Button, staff at point <b>A</b> and table will appear. You will notice table updates simultaneously i.e. CHAINAGE & REMARKS VALUES will update.<br><br>
+<b>6.</b> Click on the staff at point <b>A</b> to take <b>B.S.</b> reading. Autolevel view also appears on the left pane.Click on the <b>NEXT</b> Button to move the staff at point <b>B</b>.<br><br>
+<b>7.</b> Click on the staff at point <b>B</b> to take <b>I.S.</b> reading.Click on the <b>NEXT</b> Button to move the staff at point <b>C</b>.<br><br>
+<b>8.</b> Click on the staff at point <b>C</b>. Now the position of staff will change to a new location. Click on the staff again to note F.S. reading.<br><br>
+<b>9.</b> Click on the autolevel machine to shift it to a new location.Click on the staff again to note B.S. reading same as in step 6.<br><br>
+<b>10.</b> Click on the <b>NEXT</b> Button to move the staff at point <b>D</b>.  Click on the staff at point <b>D</b> to take <b>I.S.</b> reading same as in step 7.<br><br>
+<b>11.</b> Click on the <b>FINISH</b> Button to finish the simulation.<br><br>
+<b>*</b> B.S.: Back Sight, I.S.: Intermediate Sight, F.S.: Fore Sight, TBM: Temporary Benchmark.<br><br>
+</span>
+    
+        <div id="setup">
+        <img id="screw1" src="images\screw1.PNG">
+        <img id="screw2" src="images\screw2.PNG">
+        <img id="screw3" src="images\screw3.PNG">
+        <img id="circle" src="images\circle1.png">
+        <img id="bluedot" src="images\dot.png">
+        </div>
+        <img id="setup_autotri" src="images\setup_auto_tri.PNG" onclick="msg1()">
+       <img id="setup_dot" src="images\setup_dot.PNG" onclick="msg2()">
+        <span id="cap">Instrument setup by leveling screw</span>
+              <img id="tri_img2" src="images\trimodel.png">
+              <img id="autolevel2" src="images\auto.png" >
+              <img id="staff_maina" src="images\staffa.png">
+              <a href="exp1.html"><button id="back" >BACK</button></a> 
+              <button id="reset_setting" onclick="location.reload();" >RESET</button>
+             <a href="exp3.html"> <button id="next_setting" >NEXT</button></a>
+             <button id="level_setting" onclick="setup()">LEVEL SETUP</button>
+</div>
+ 
+<script src="js/main2.js"></script>
+
+</body>
+</html>

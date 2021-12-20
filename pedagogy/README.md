@@ -9,7 +9,7 @@
 <b>Discipline | <b> Civil Engineering
 :--|:--|
 <b> Lab | <b> Surveying
-<b> Experiment|     <b> 9. Verification and interpretation of truth table for AND, OR, NOT, NAND. NOR, Ex-OR, Ex-NOR gates
+<b> Experiment|     <b> 8. Verification and interpretation of truth table for AND, OR, NOT, NAND. NOR, Ex-OR, Ex-NOR gates
 
 
 <h4> [1. Focus Area](#LO)
