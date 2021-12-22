@@ -1,3 +1,4 @@
+#main{
 
     margin-top: 50px;
     margin-left: 300px;
@@ -162,7 +163,7 @@
         background-color: #009dff;
 }
 #obj_heading{
-            font-size: 30px;
+             font-size: 30px;
              margin-left:400px ;
              margin-top: 100px;
              color: black;
@@ -170,7 +171,6 @@
              }
              #obj_para{
                 padding-left: 100px;
-              
                 margin-top: 80px;
                 font-size: 25px;
                 color: black;
@@ -178,17 +178,17 @@
                 text-align: justify;
                 }
                 #equip_heading{
-                    font-size: 30px;
+                     font-size: 30px;
                      margin-left:400px ;
                      margin-top: 50px;
                      color: black;
                      font-weight: bold;
                     }
                     #auto_heading{
-                        font-size: 23px;
+                         font-size: 23px;
                          margin-left:20px ;
                          margin-top: 50px;
-                        color: red;
+                         color: red;
                         }
                         #auto_para{
                             padding-left:20px;
@@ -201,10 +201,10 @@
                             }
                            
                 #tripod_heading{
-                    font-size: 23px;
-                   margin-left: 20px;
+                     font-size: 23px;
+                     margin-left: 20px;
                      margin-top: 50px;
-                    color: red;
+                     color: red;
                     }
                     #tripod_para{
                         padding-left:20px;
@@ -329,10 +329,10 @@
                     width: 200px;
                 }
                 #flag_heading{
-                     font-size: 23px;
+                    font-size: 23px;
                      margin-left:20px ;
                      margin-top: 50px;
-                     color: red;
+                    color: red;
                     }
                     #flag_para{
                         padding-left:20px;
@@ -346,8 +346,8 @@
                        
             #tape_heading{
                 font-size: 23px;
-                margin-left: 20px;
-                margin-top: 50px;
+               margin-left: 20px;
+                 margin-top: 50px;
                 color: red;
                 }
                 #tape_para{
@@ -385,6 +385,7 @@
    font-weight: bold;
    font-size: 15px;
    border-radius: 5px;
+   
    cursor: pointer;
    background-color: 	#2e5073;
    color: whitesmoke;
@@ -430,15 +431,15 @@ margin-left: 5px;
     height: 70px;
     width: 150px;
     z-index: 1;
-    color: azure;
+   color: azure;
 }
 
 #pointb{
     height:70px;
     width:50px;
-    position: absolute;
-    margin-left: 380px;
-    margin-top: 225px;
+position: absolute;
+margin-left: 380px;
+margin-top: 225px;
 }
 #b{
     font-size: medium;
@@ -450,11 +451,11 @@ margin-left: 5px;
     height: 70px;
     width: 150px;
     z-index: 1;
-    color: azure;
+   color: azure;
 }
 
 #pointc{
-height:70px;
+    height:70px;
 width:50px;
 position: absolute;
 margin-left: 800px;
@@ -518,7 +519,7 @@ margin-top: 245px;
     margin-left: 395px;
 }
 #autolevel{
-    height: 100px;
+    height: 80px;
     width:100px;
     position: absolute;
     margin-top: 610px;
@@ -545,7 +546,9 @@ margin-top: 245px;
 }
 
 
- #tri_img2{
+ #tri_img2
+ {
+    
     height: 200px;
     width:130px;
     position: absolute;
@@ -553,14 +556,14 @@ margin-top: 245px;
     margin-left: 700px;
    
 }
-#autolevel2{
-    height: 100px;
+#autolevel2
+{
+    height: 80px;
     width:100px;
     position: absolute;
     margin-top: 560px;
     float:left;
     margin-left: 600px;
-    
 }
 
 #back{
@@ -590,7 +593,7 @@ margin-top: 245px;
  }
  #setup_autotri{
     height: 270px;
-    width:140px;
+    width:200px;
     position: absolute;
     margin-top: 400px;
     margin-left: 700px;
@@ -803,7 +806,7 @@ margin-top: 60px;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 670px;
+    margin-top: 650px;
     cursor: pointer;
     background-color: 	#2e5073;
     color: whitesmoke;
@@ -822,7 +825,7 @@ margin-top: 60px;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 670px;
+    margin-top: 650px;
     cursor: pointer;
     background-color: 	#2e5073;
     color: whitesmoke;
@@ -841,7 +844,7 @@ margin-top: 60px;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 670px;
+    margin-top: 650px;
     cursor: pointer;
     background-color: 	#2e5073;
     color: whitesmoke;
@@ -852,30 +855,15 @@ margin-top: 60px;
     color: black;
 } 
 #autolevel_main{
-    height: 170px;
-    width:100px;
+    height: 70px;
+    width:110px;
     position: absolute;
-    margin-top:410px;
+    margin-top:465px;
     float:left;
-    margin-left: 570px;
-    transform: rotateX(65deg);
+    margin-left: 400px;
+    transform: rotateY(-30deg);
     cursor: pointer;
-    pointer-events: none;
 }
-#autolevel_main2{
-    height: 80px;
-    width:100px;
-    position: absolute;
-    margin-top:450px;
-    float:left;
-    margin-left: 570px;
-    transform: rotateX(-75deg);
-    cursor: pointer;
-    pointer-events: none;
-    transform:translate(750px,-20px);
-    display: none;
-}
-
 #autolevel_l{
     font-size:21px;
     border-radius: 5px;
@@ -888,35 +876,13 @@ margin-top: 60px;
     padding-right: 5px;
     font-weight: bolder;
     position: absolute;
-    margin-left: 700px;
+    margin-left: 550px;
     margin-top: 450px;
     white-space: nowrap;
-    display: none;
+   display: none;
    opacity: 0.9;
 }
 #autolevel_main:hover + #autolevel_l{
-    display: inline-block;
-}
-#autolevel_l2{
-    font-size:21px;
-    border-radius: 5px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
-    height: 30px;
-    width:85px;
-    padding-left: 5px;
-    padding-top: 10px;
-    padding-right: 5px;
-    font-weight: bolder;
-    position: absolute;
-    margin-left: 700px;
-    margin-top: 450px;
-    white-space: nowrap;
-    display: none;
-   opacity: 0.9;
-   transform:translate(750px,0px);
-}
-#autolevel_main2:hover + #autolevel_l2{
     display: inline-block;
 }
 #tri_img_main{
@@ -924,19 +890,8 @@ margin-top: 60px;
     width:130px;
     position: absolute;
     margin-top: 520px;
-    margin-left: 560px;
+    margin-left: 395px;
     cursor: pointer;
-    pointer-events: none;
-}
-#tri_img_main2{
-    height: 160px;
-    width:130px;
-    position: absolute;
-    margin-top: 520px;
-    margin-left: 560px;
-    cursor: pointer;
-    transform:translate(750px,-20px);
-   display: none;
 }
 #tripod_l{
     font-size:21px;
@@ -950,36 +905,13 @@ margin-top: 60px;
     padding-right: 5px;
     font-weight: bolder;
     position: absolute;
-    margin-left: 700px;
+    margin-left: 550px;
     margin-top: 610px;
-    display: none;
     white-space: nowrap;
-   
+   display: none;
    opacity: 0.9;
 }
 #tri_img_main:hover + #tripod_l{
-    display: inline-block;
-}
-#tripod_l2{
-    font-size:21px;
-    border-radius: 5px;
-    border: 3px solid black;
-    background-color: blanchedalmond;
-    height: 30px;
-    width:60px;
-    padding-left: 5px;
-    padding-top: 10px;
-    padding-right: 5px;
-    font-weight: bolder;
-    position: absolute;
-    margin-left: 700px;
-    margin-top: 610px;
-    display: none;
-    white-space: nowrap;
-    transform:translate(750px,0px);
-   opacity: 0.9;
-}
-#tri_img_main2:hover + #tripod_l2{
     display: inline-block;
 }
 #equip_setting{
@@ -1028,16 +960,7 @@ margin-top: 60px;
     height:150px;
     width:150px;
     cursor: pointer;
-    display:none;
-    z-index:1;
-}
-#bench1{
-    height: 200px;
-    width:100px;
-    position: absolute;
-    transform: rotateX(86deg);
-    margin-top: 400px;
-    margin-left: 355px;
+    display: none;
 }
 #staff_mainb{
     margin-top: 360px;
@@ -1045,17 +968,8 @@ margin-top: 60px;
     position: absolute;
     height:150px;
     width:150px;
-    z-index:1;
-    display:none;
+    display: none;
     cursor: pointer;
-}
-#bench2{
-    height: 200px;
-    width:100px;
-    position: absolute;
-    transform: rotateX(86deg);
-    margin-top: 405px;
-    margin-left: 773px;
 }
 #staff_mainc{
     margin-top: 360px;
@@ -1063,38 +977,8 @@ margin-top: 60px;
     position: absolute;
     height:150px;
     width:150px;
-    z-index: 1;
+    display: none;
     cursor: pointer;
-    display: none;
-}
-#bench3{
-    height: 200px;
-    width:100px;
-    position: absolute;
-    transform: rotateX(86deg);
-    margin-top: 405px;
-    margin-left: 1130px;
-}
-#staff_mainc2{
-    margin-top: 360px;
-    margin-left: 1100px;
-    position: absolute;
-    height:150px;
-    width:150px;
-    z-index: 1;
-    cursor: pointer;
-    display: none;
-    transform:translate(0px,65px);
-}
-#bench32{
-    height: 200px;
-    width:100px;
-    position: absolute;
-    transform: rotateX(86deg);
-    margin-top: 405px;
-    margin-left: 1130px;
-    transform:translate(0px,65px)rotateX(86deg);
-    display: none;
 }
 #staff_maind{
     margin-top: 360px;
@@ -1102,19 +986,9 @@ margin-top: 60px;
     position: absolute;
     height:150px;
     width:150px;
-    z-index:1;
+  display: none;
     cursor: pointer;
-    display: none;
 }
-#bench4{
-    height: 200px;
-    width:100px;
-    position: absolute;
-    transform: rotateX(86deg);
-    margin-top: 405px;
-    margin-left: 1490px;
-}
-
 #alidade_img{
     height: 150px;
     width:240px;
@@ -1124,8 +998,7 @@ margin-top: 60px;
     border-radius: 5px;
     display: none;
     cursor: pointer;
-    border:5px solid black
-   
+    border: 3px solid black;
 }
 #stand_img{
     height:70px;
@@ -1203,27 +1076,33 @@ display: none;
     display: none;
   
  }
- #t{
-     visibility: hidden;
- }
  table{
         position: absolute;
-        width:190px;
+        width:240px;
         height:150px;
+        padding-left: 37px;
+        padding-top: 18px;
         margin-left: 20px;
         text-align: center;
-        margin-top: 53px;
-        border-collapse: collapse;
-        background-color:white;
+        margin-top: 353px;
+        display: none;
+        background-color: white;
         border:solid 2px black;
       }
+ tr,td,th
+ {
+        font-weight: bolder;
+ }
  th{
-     background-color: burlywood;
-     font-weight: bolder;
-   
+        background-color: #00A572;
+        color: whitesmoke;
+        font-size:15px ;
+ }
+#t2,#t4{
+        background-color: #E2E5DE;
  }
  td{
-    font-weight: bolder;
+        font-size: 15px;
  }
  #cap{
         position: absolute;
@@ -1252,8 +1131,4 @@ display: none;
 {
     background-color: #009dff;
     color: black;
-}
-
-#v11,#v12,#v13,#v21,#v22,#v23,#v31,#v32,#v33,#v41,#v42,#v43,#v51,#v52,#v53{
-    visibility: hidden;
 }
