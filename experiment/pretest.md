@@ -38,5 +38,5 @@ Q5. Rise and fall method is used in:<br>
 
 A   profile levelling<br>
 B   differential levelling<br>
-C   check levelling<br><br>
+C   check levelling<br>
 <b>D   both differential and check levelling</b><br><br>
