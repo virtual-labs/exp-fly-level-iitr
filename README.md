@@ -6,7 +6,7 @@
 <b>Discipline | <b> 
 :--|:--|
 <b> Lab | <b> Surveying
-<b> Experiment|     <b> 8. 	Carry out fly levelling using auto level.
+<b> Experiment|     <b> 8. Carry out fly levelling using auto level.
 
 <h5> About the Experiment : </h5> <br>
 
