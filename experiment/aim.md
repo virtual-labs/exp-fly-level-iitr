@@ -1,1 +1,1 @@
-#### To find out elevations of various points on the ground using auto level.
+#### To study the bistable multivibrator using 555 Timer IC.  

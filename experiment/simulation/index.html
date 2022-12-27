@@ -1,13 +1,205 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bistable Multivibrator Using 555 Timer IC</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!--JSplumb-->
+    <link rel="stylesheet" href="css\jsplumbtoolkit-defaults.css">
+    <script src="js\jsplumb.min.js"></script>
+
+    <script src="js\jquery-latest.js"></script>
+    <script src="js\jquery-ui-latest.js"></script>
+    <script src="js\jquery.jsPlumb-1.3.9-all-min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    
+    <!--jQuery-->
+    <script src="js\jquery.min.js"></script>
+
+    <!--JS files-->
+    <script src="js/script.js"></script>
+    <script src="js/graph.js"></script> 
+
+    <!--CSS files-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <div id="main">
-    <a href="2.html"><button id="start">START</button></a><br>
-  <button id="quit" onclick="location.close();">QUIT</button></a>
+     <div id="exp-name">
+        <h3>Bistable Multivibrator Using 555-Timer IC</u></h3>
     </div>
-<script src="js/main.js"></script>
+      
+<div id="simulation">
+  <div class="left">
+
+            <div class="border" id="mid">
+
+                    <div id="board">
+                      
+                        <div class="ic" id="ic555" draggable="true" ><img src="images/ic.png" id="ic1" width="55px"height="45px" style="margin-top: 50px;">
+                          <label style="font-size: 13px;  color: red; position: absolute; top: 77px;left:6px;">1</label>  
+                          <label style="font-size: 13px;  color: red; position: absolute; top: 77px;left:46px;">4</label>
+                          <label style="font-size: 13px;  color: red; position: absolute;top: 60px;left: 6px;">8</label>
+                          <label style="font-size: 13px;  color: red; position: absolute; top: 60px;left:46px;">5</label>
+                        
+                        </div>
+             <!--         <div class="ic" id="ic7408" draggable="true"></div>-->
+                    
+                    <div id="led1" draggable="true"> <img src="images/led.png" id="led3" width="120px"height="94px"style="margin-left: -10px;margin-top: 5px;"> 
+                      <label style="font-size: 18px;  color: blue; position: absolute; top: -30px;left:32px;">Output</label>
+                    <label style="font-size: 20px; color: red; position: absolute; top: 83px;left:25px;">+ &nbsp;&nbsp;&nbsp;&nbsp; -</label>
+                    <label  style="font-size: 15px;  color: BLACK; position: absolute; top: 145px;left: 30px;"><b>A1</b></label>
+                    <label  style="font-size: 15px;  color: BLACK; position: absolute; top: 145px;left: 50px;"><b>C1</b></label>
+                    </div>
+
+                    <div id="cap" draggable="true"> <img src="images/capacitor1.png" id="capacitor" width="35px"height="70px"> 
+                      <label style="font-size: 18px;  color: blue; position: absolute; top: -22px;left:9px;"><b>C</b></label> 
+                      <label  style="font-size: 15px;  color: BLACK; position: absolute; top: 126px;left:-6px;"><b>C1</b></label>
+                      <label  style="font-size: 15px;  color: BLACK; position: absolute; top: 126px;left:20px;"><b>A1</b></label> 
+                    </div>
+
+
+                    
+                     <div id="resistance3" draggable="true"> <img src="images/resistance2.png" id="res6"  width="15px"height="45px"> 
+                      <!--label style="font-size: 18px;  color: red; position: absolute; top: -82px;left:1px;">R<sub>1</sub></label--> 
+                      <label  style="font-size: 18px;color: blue;position: absolute;top: 15px;left: -19px;">R<sub>1</sub></label>
+                      <label style="font-size: 15px;color: BLACK;position: absolute;top: -74px;left: -3px;"><B>C1</B></label>
+                      <label style="font-size: 15px;color: BLACK;position: absolute;top: 104px;left: -3px;"><B>A1</B></label>
+                    </div>
+                     
+                    <div id="resistance4" draggable="true"> <img src="images/resistance2.png" id="res7" width="15px"height="45px" >
+                      <!--label style="font-size: 18px;  color: red; position: absolute; top: -82px;left:1px;">R<sub>2</sub></label-->
+                      <label  style="font-size: 18px;color: blue;position: absolute;top: 15px;left: -19px;">R<sub>2</sub></label>
+                      <label style="font-size: 15px;color: BLACK;position: absolute;top: -74px;left: -3px;"><B>C1</B></label>
+                      <label style="font-size: 15px;color: BLACK;position: absolute;top: 104px;left: -3px;"><B>A1</B></label>  
+                    </div>
+
+                     <div id="resistance5" draggable="true"> <img src="images/resistance3.png" id="res8" width="15px"height="45px" > 
+                      <!--label style="font-size: 18px;  color: red; position: absolute; top: -82px;left:1px;">R<sub>3</sub></label--> 
+                      <label  style="font-size: 18px;color: blue;position: absolute;top: 15px;left: -19px;">R<sub>3</sub></label>
+                      <label style="font-size: 15px;color: BLACK;position: absolute;top: -74px;left: -3px;"><B>C1</B></label>
+                      <label style="font-size: 15px;color: BLACK;position: absolute;top: 104px;left: -3px;"><B>A1</B></label>
+                    </div>
+              
+                    </div>
+
+
+             
+
+                    <div id="supply" draggable="true"><img src="images/supply.png" height="100px" width="155px" style="border-radius:10px;"></div>
+                    
+                    <div id="inputs" draggable="true">
+                        <label id="b" style="font-family: sans-serif; left: 600px;"><b>(Reset)</b></label>
+                        
+                        <img src="images/toggleoff1.png" id="switch2" width="40px"height="40px"onclick ="change1();"  onmouseleave="change2();">
+                        <label id="b" style="font-size: 15px;color: BLACK;position: absolute;top: 380px;left: 592px;"><B>A</B></label>
+                        <label id="b" style="font-size: 15px;color: BLACK;position: absolute;top: 380px;left: 652px;"><B>B</B></label>
+                      
+                    </div>
+                    <div id="inputs1" draggable="true">
+                        <label id="b" style="font-family: sans-serif;"><b> &nbsp;(Set)</b></label>
+                        <label id="b" style="font-size: 15px;color: BLACK;position: absolute;top: 380px;left: 450px;"><B>A</B></label>
+                        <label id="b" style="font-size: 15px;color: BLACK;position: absolute;top: 380px;left: 510px;"><B>B</B></label>
+                        <img src="images/toggleoff1.png" id="switch1" width="40px"height="40px"onclick ="change();"  onmouseleave="change2();">
+                        
+                       
+                    </div>
+
+
+<div class="bottom">
+  <button id="checkbutton" onclick="checkCircuit()" disabled>Check Connections</button>
+  <button id="startbutton" onclick="start_simulation()" disabled>Start Simulation</button>
+  <button id="resetbutton" onclick="resetCircuit()" disabled>Reset Connections</button>
+</div>
+
+         
+            </div>
+
+  </div> 
+          
+      <div class="right">
+        <div>
+          <button class="right_btn" id="First">Instructions</button>
+          <button class="right_btn com" id="second" disabled>Components</button>
+          <div class="Button-data" id="First_Data" style="display: none">
+              <div class="panel">
+                  <button class="close-btn" id="close-btn"><span>&#10005</span></button>
+                 <div id="first_insrt">
+                  <ol type="1" style="padding: 10px;">
+                    <li>Fill the truth table and click on check button.</li>
+                      <li>Click on the components button to place the component.</li>               
+                      <li>Make connections as per the circuit diagram.</li>
+                      <figure>
+                        <img src="images/image1ins.png" style="height: auto;width:270px">
+                        <figcaption style="text-align:center;">Fig. Circuit diagram of bistable multivibrator</figcaption>
+                      </figure><br/>
+                      <li>Once the connections are made, click on '<b>Check Connections</b>' button. If connections are right, the '<b>Start Simulation</b>' button will become active. Click on it to start the simulation.</li>
+                      <li>Click on <b>'Set' (S)</b> and <b>'Reset' (R)</b> tactile buttons to provide inputs to the circuit.</li>
+                                       
+                      </ol></div></div></div></div>
+
+                      <div class="Button-data" id="Second_Data">
+                        <div class="Components">
+                            <button class="close-btn" id="btn_close"><span>&#10005</span></button>
+                            <div>
+                              <button id="breadbutton" onclick="breadboard()" >Breadboard</button>
+                        <button id="supplybutton" onclick="supply()">9V DC Supply</button>
+                        <button id="switchbutton"onclick="inputs();inputs1();">Triggers</button>
+                        <button id="ic2button" onclick="ic555()" >IC-555</button>
+                            </div>
+                            <div>
+                              <button id="capbutton" onclick="capacitor();" >Capacitor</button>
+                        <button id="ledbutton" onclick="led2();" >LED</button>
+                        <button id="resistancebutton"  onclick="resistor3();resistor4();resistor5();">Resistors</button>
+                                 </div>
+                        </div>
+                    </div>
+      
+      
+ 		
+             <center>
+              <div id="Table" style="padding: 10px;"><b style="font-size: 20px; font-family: sans-serif;"><u>TRUTH TABLE</u></b><br><br><p style="font-size: 18px; font-family: sans-serif;"> Components button will remain inactive until Truth-Table is filled correctly</p><br><br><br>
+      	    <table id="mytable"background-color="white" border="2px">
+      		<tr style="background-color: #3c8dbc">
+      			<th>SET</th>
+            <th>RESET</th>
+            <th>OUTPUT</th>
+      		</tr>
+      		
+      		<tr>
+      			<th>0</th>
+            <th>1</th>
+      			<th><input type="text"  class="cell" id="cell1" maxlength="1"  /></th>
+      		</tr>
+          <tr>
+            <th>1</th>
+            <th>0</th>
+            <th><input type="text"  class="cell" id="cell2" maxlength="1"  /></th>
+          </tr>
+      		
+ <button id="check" onclick="check1();">CHECK</button>
+ <button id="reset" onclick="reset1();">RESET</button>
+                  
+         </div></center> </div>
+    <script src="js/script1.js"></script>
+</div>
+
+
+<div id="copyright">
+  <h5>&copy; Copyright 2022 Virtual Labs, IIT Roorkee</h5>
+</div>
+
+
+     
+   
 </body>
+
 </html>
