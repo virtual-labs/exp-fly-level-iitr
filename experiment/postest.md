@@ -1,47 +1,44 @@
 ## Post test
 #### Please attempt the following questions
 
+
+Q1. In \_\_\_\_\_\_\_\_ level of the voltage determines the value of the bit.<br>
+
+A   NRZ-I  
+<b>B   NRZ-L</b>  
+C   Both the above  
+D   None of the above  
 <br>
-Q1. A fixed point of reference of known elevation is known as:<br>
-<b>A   Bench Mark</b><br>
-B   Datum<br>
-C   Change point<br>
-D   Station point<br>
-<br><br>
 
-Q2. Which of the following methods of offsets involves less measurement
-on the ground?<br>
+Q2. Unipolar,bipolar and polar encoding are types of \_\_\_\_\_\_\_\_\_ encoding.<br>
 
-<b>A   method of perpendicular offsets</b><br>
-B   method of oblique offsets<br>
-C    method of ties<br>
-D   all involve equal measurement on the ground<br>
-<br><br>
-
-Q3. The cross hairs in the surveying telescope are placed:<br>
-
-A    much closer to the objective lens than to the eye piece<br>
-B   midway between eye piece and objec-tive lens<br>
-<b>C   much closer to the eye-piece than to the objective lens</b><br>
-D   anywhere between eye-piece and objective lens<br><br>
-
-
-Q4.  The adjustment of horizontal cross hair is required particularly
-when the instrument is used for:<br>
-
-<b>A    leveling</b><br>
-B   prolonging a straight line<br>
-C    measurement of horizontal angles<br>
-D   all of the above<br><br>
-
-
-Q5. When the bubble of the level tube of a level remains central?<br>
-
-A   Axis of the telescope is horizontal<br>
-B   Less costly than a theodolite survey<br>
-<b>C   Line of sight is horizontal</b><br>
-D   Geometrical axis of the telescope is horizontal<br>
+<b>A   Line</b>  
+B   Block  
+C   NRZ  
+D   None  
 <br>
+
+Q3. \_\_\_\_\_\_\_\_ encoding has a transition at the middle of each bit.<br>
+  
+A   RZ  
+<b>B   Differential Manchester</b>  
+C   Manchester  
+D   All the above  <br><br>
+
+Q4. \_\_\_\_\_\_\_\_ encoding has a transition at the beginning of each 0 bit.<br>
+ 
+A   RZ  
+<b>B   Differential Manchester</b>  
+C   Manchester  
+D   All the above  <br><br>
+
+
+Q5. What is the region enclosed by the optical cavity called?<br>
+
+A   Optical box<br>
+B   Optical system  
+C   Optical region  
+<b>D   Optical resonator</b>  <br>
 
 
 

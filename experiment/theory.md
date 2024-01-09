@@ -1,36 +1,20 @@
 ### Introduction
-<br>
-Fly levelling is a process of finding the level difference between two points and the levelling consists of taking back sights and fore sights only and not intermediate sights. Differential levelling is the determination of level difference between two points; check levelling is finding the level difference between points in a way of checking the accuracy of levelling works already done, and fly levelling is the procedure of accomplishing the objective of finding out the level difference between two points, which are far apart. It can also be used for transferring a benchmark.<br><br>
+<div style="text-align:justify">
 
-### Principle 
-<br>
-1) It makes use of a distance and a direction to locate the object.<br>
-2) The positions of the points are plotted on the paper by measuring the distances to the different objects using a tape and by plotting these distances to a scale along the rays drawn to the respective objects using alidale.<br>
-<br>
+Fiber optic links can be used for transmission of digital as well as analog signals. Basically a fiber optic link contains three main elements : a transmitter, an optical fiber and a receiver. The transmitter module takes the input signal in electrical form and then transforms it into optical energy containing the same information. The optical fiber is the medium which takes the energy to the receiver. At the receiver, light is converted back into electrical form with the same pattern as fed to the transmitter.
 
-### Equipments Used 
-<br>
-1) Auto level with tripod.<br>
-2) Graduated Staff.<br>
-3) Measuring Tape.<br>
-<br>
+**Transmitter**: Fiber optic transmitters are composed of a buffer, driver and optical source. The buffer provides both an electrical connection and isolation between the transmitter and the electrical system the data. The driver provides electrical power to the optical source. Finally, the optical source converts the electrical current to the light energy with the same pattern. The transmitter section comprises of Function Generator which generates input signals that are going to be used as information to transmit through optical fiber.
 
-### Dos and Don'ts
-<br>
+**The Fiber Optic Link**: Emitter and Detector circuit on board form the fiber optic link. This section provides the light source for the optic fiber and the light detector at the far end of the fiber optic links.
 
-#### Dos<br>
-1) Center and level the base of plane table accurately.<br>
-2) Crosshairs must be focused sharply.<br>
-3) Keep the Backsight and Foresight distances nearly equal to compensate for collimation error, if any.<br>
-4) Always take 3 or more observations of each point to take the average.<br>
-5) In Fly Levelling, use Rise and Fall method for computation of RL's.<br>
-6) Apply checks after computing RL's.<br>
-7) Find closing error and distribute it.<br><br>
+**The Receiver**: It consists of the comparator circuit and AC amplifier circuit.
 
-#### Don'ts<br>
+<center>
 
-1) Handle the Auto Level with utmost care. If dropped accidently, it may damage compensator and digital display.<br>
-2) If using aluminum staff, be away from electric poles, transformers and wires.<br>
-3) While shifting the instrument from one station to another station, always keep it in box for transport.<br>
-4) Protect the instrument from heavy rains.<br><br>
+![](images/b.PNG)
 
+**Figure 1: Set up for Measurement of data rate for digital optical link**
+
+</center>
+
+</div>
