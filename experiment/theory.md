@@ -1,36 +1,30 @@
 ### Introduction
-<br>
-Fly levelling is a process of finding the level difference between two points and the levelling consists of taking back sights and fore sights only and not intermediate sights. Differential levelling is the determination of level difference between two points; check levelling is finding the level difference between points in a way of checking the accuracy of levelling works already done, and fly levelling is the procedure of accomplishing the objective of finding out the level difference between two points, which are far apart. It can also be used for transferring a benchmark.<br><br>
+<div style="text-align:justify">
 
-### Principle 
-<br>
-1) It makes use of a distance and a direction to locate the object.<br>
-2) The positions of the points are plotted on the paper by measuring the distances to the different objects using a tape and by plotting these distances to a scale along the rays drawn to the respective objects using alidale.<br>
-<br>
+A Light Emitting Diode (LED) is a semiconductor diode that emits light when an electric current is applied in forward direction of the device as in simple LED circuit. The effect is a form of electroluminescence where incoherent and narrow-spectrum light is emitted from the p-n junction.
 
-### Equipments Used 
-<br>
-1) Auto level with tripod.<br>
-2) Graduated Staff.<br>
-3) Measuring Tape.<br>
-<br>
+  
 
-### Dos and Don'ts
-<br>
+For optical communication systems requiring bit rates less than approximately 100-200 Mb/s together with multimode fiber-coupled optical power in tens of microwatts, semiconductor light-emitting diodes (LEDs) are usually the best light source choice. LEDs require less complex drive circuitry than laser diodes since no thermal or optical stabilization circuits are needed and they can be fabricated less expensively with higher yields.
 
-#### Dos<br>
-1) Center and level the base of plane table accurately.<br>
-2) Crosshairs must be focused sharply.<br>
-3) Keep the Backsight and Foresight distances nearly equal to compensate for collimation error, if any.<br>
-4) Always take 3 or more observations of each point to take the average.<br>
-5) In Fly Levelling, use Rise and Fall method for computation of RL's.<br>
-6) Apply checks after computing RL's.<br>
-7) Find closing error and distribute it.<br><br>
+  
 
-#### Don'ts<br>
+To be useful in fiber transmission applications and LED must have a high radiance output, a fast emission response time and high quantum efficiency. To achieve a high radiance and a high quantum efficiency, the LED structure must provide a means of confining the charge carriers and the stimulated optical emission to the active region of the pn junction where radiative recombination takes place.
 
-1) Handle the Auto Level with utmost care. If dropped accidently, it may damage compensator and digital display.<br>
-2) If using aluminum staff, be away from electric poles, transformers and wires.<br>
-3) While shifting the instrument from one station to another station, always keep it in box for transport.<br>
-4) Protect the instrument from heavy rains.<br><br>
+The two basic LED configurations being used for fiber optics are surface emitters and edge emitters.
 
+<center>
+  
+![](images/Characteristics.png)  
+  
+
+**Figure 1: Light Emitting Diodes I-V Characteristics**
+
+![](images/figure.png)  
+  
+
+**Figure 2: Set up for Characterisation of LED**
+
+</center>
+
+</div>

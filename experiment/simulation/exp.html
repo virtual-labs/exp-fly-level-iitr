@@ -1,0 +1,624 @@
+<html>
+<head>
+	<title>Reading values</title>
+	<link rel="stylesheet" href="css/expstyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+	<!----------------------------------------FOR ALERT--------------------------------------------------------->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body style="width:95em">
+	<div id="se-pre-con"><div class="load">
+		<p>You can read the values of the experiment</p>
+		<img src="images/load.gif"></img>
+		<p>Please wait...</p></div>
+	</div>
+
+	<div class="exp" id="exp">
+
+		<div id="exph">
+			<h1 id="expm">Characterisation of LED</h1> 
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+		<script>
+			var i=2,t=0;
+			var f=0;
+			var x,y,z,th;
+			var temp=1;
+			var count=1;
+			var l1=[];
+			var l2=[];
+			var rtr,flag,value=1;
+			var pcount=0;
+			$(window).load(function() {
+			// Animate loader off screen
+			
+				$("#se-pre-con").animate({
+					top: "-150%"
+				}, 4000);t=1;
+			});
+
+			function plot() {
+				var ctx=document.getElementById("canvas").getContext('2d');
+				let chartStatus = Chart.getChart("canvas"); 
+                            if (chartStatus != undefined) {
+                              chartStatus.destroy();
+							 
+                            }
+				var len1=l1.length;
+					
+						
+				//sorting
+				for(var i=0;i<len1;i++) {
+					for(var j=i+1;j<len1;j++) {
+						if(parseFloat(l2[i])>parseFloat(l2[j])) {
+							var temp=l1[i];
+							l1[i]=l1[j];
+							l1[j]=temp;
+							temp=l2[i];
+							l2[i]=l2[j];
+							l2[j]=temp;
+						}
+					}
+				}
+				var chart=new Chart(ctx,{
+								type:'line',
+								data: {
+									labels:l1,
+									datasets:[{
+										label:"Current(A) vs Voltage(V)",
+										data:l2,
+										fill:true,
+										backgroundColor: 'rgba(0, 161, 253, 0.1)',
+										borderColor:'#2B4D9D',
+										pointBorderColor: 'blue',
+	
+									}]
+								},
+								options: {
+									responsive:true,
+									
+                                         scales: {
+                                              x: {
+												
+
+                                                title: {
+                                                color: '#091069',
+												text: 'Voltage (V)',
+                                                display: true,
+												align:'center',
+												font: {
+                                                    size: 18,
+													family:"'Times New Roman'",				
+                                                 },
+                                                },
+												
+                                             },
+											 y: {
+												
+                                                title: {
+                                                color: '#091069',
+												text: 'Current (A)',
+                                                display: true,
+												align:'center',
+												font: {
+                                                    size: 18,
+													family:"'Times New Roman'",
+                                                 },
+                                                },
+												
+                                             }
+                                    }
+								}
+							});
+							
+			}
+			function insert() {
+			 if(f==1){
+				document.getElementById('plot').disabled=false;
+			   if(value==1){
+				var tab=document.getElementById("table");
+				
+					if(count>10) stop();
+					else {
+						var row=tab.insertRow(i);
+						row.id=i++;
+						row.setAttribute("bgcolor","#ffffff");
+						row.setAttribute("align","center");
+						var cell1=row.insertCell(0);
+						var cell2=row.insertCell(1);
+						var cell3=row.insertCell(2);
+						var cell4=row.insertCell(3);
+						
+						cell1.innerHTML=count++;
+						cell2.innerHTML=x;
+						cell3.innerHTML=parseFloat(y);
+						cell4.innerHTML=parseFloat(z);
+						l1.push(y);
+						l2.push(z);
+					}
+					}
+				}
+			}
+			function updateLED() {
+					f=f+temp;
+					temp=f-temp;
+					f=f-temp;
+					display();
+			}
+			function display() {
+				
+				let chartStatus = Chart.getChart("canvas"); 
+                            if (chartStatus != undefined) {
+                              chartStatus.destroy();
+							 
+                            }
+							document.getElementById("plot").disabled=true;
+					if(f==0) {
+						document.getElementById("led").innerHTML="";
+						document.getElementById("x").value="";
+						document.getElementById("y").value="";
+						document.getElementById("z").value="";
+						document.getElementById("r").value="";
+
+						Swal.fire({
+            backdrop:false,
+           target: '#exp',
+           position:'center',
+           titleColor:'red',
+            customClass: {
+              container: 'position-absolute',
+              popup:"swal2-popup"
+            },
+            title:'Power is OFF!!',
+            html: 'Please power on the system.',
+           icon:'warning'
+            });
+					}
+					else if(f==1){
+						rtr=document.getElementById('restr').value;
+						document.getElementById("r").value=rtr+" ohms";
+						document.getElementById("led").innerHTML="";
+						flag=1;
+						document.getElementById("stop").value=0;
+					if(i>2) for(var q=2;q<i;q++) document.getElementById(q).remove();
+					i=2;count=1;l1=[];l2=[];
+					var s=document.getElementById("selectLED").value;
+						
+						switch(s) {
+						case 'red':
+									th=2.2;
+									r=7.5;
+								
+									break;
+						case 'blue':
+									th=3.2;
+									r=14.28;
+										
+									break;
+						case 'green':
+									th=2;
+									r=20;	
+									break;
+						case 'yellow':
+									th=2;
+									r=8.54;	
+									break;
+					}
+					document.getElementById("vf").value=th+ "V";
+					
+					}
+					
+			}
+			function stop() {
+				Swal.fire({
+                backdrop:false,
+               target: '#exp',
+               position:'center',
+               width:500,
+                customClass: {
+                  container: 'position-absolute',
+                  popup:"swal2-popup"
+                },
+                title:'Oops...',
+                html: 'You cannot read more values. Now click on <b style="color:#19318F">PLOT</b> button',
+               icon:'info'
+                });
+					
+					
+			}
+			function LED(){
+					if(flag==1){	
+						var s=document.getElementById("selectLED").value;
+						var img=document.createElement("img");
+						var src=document.getElementById("led");
+						flag=0;
+						switch(s) {
+						case 'red':img.src="images/red.PNG";
+									img.style.width='100%';
+									img.style.height='100%';
+									src.appendChild(img);
+									src.style.top='33.5%';
+									src.style.left='49.7%';
+									src.style.height='13.7%';
+									src.style.width='2.4%';
+									th=2.2;
+									r=7.5;
+									break;
+						case 'blue':img.src="images/blue.png";
+									img.style.width='100%';
+									img.style.height='100%';
+									src.appendChild(img);
+									src.style.top='33.33%';
+									src.style.left='49.8%';
+									src.style.height='13.6%';
+									src.style.width='2.2%';
+									th=3.2;
+									r=14.28;
+									break;
+						case 'green':img.src="images/green.PNG";
+									img.style.width='100%';
+									img.style.height='100%';
+									src.appendChild(img);
+									src.style.top='33.1%';
+									src.style.left='50%';
+									src.style.height='13.7%';
+									src.style.width='2.1%';
+									th=2;
+									r=20;
+									break;
+						case 'yellow':img.src="images/yellow.PNG";
+									img.style.width='100%';
+									img.style.height='100%';
+									src.appendChild(img);
+									src.style.top='33.3%';
+									src.style.left='49.9%';
+									src.style.height='13.7%';
+									src.style.width='2.1%';
+									th=2;
+									r=8.54;
+									break;
+					}
+				}
+			}
+			function updateTextBox(val) {
+			if(f==1) {
+				x=val;
+				value=1;
+				z=((x-th)/parseInt(rtr)).toFixed(4);
+				y=(z*parseInt(rtr)).toFixed(2);
+				//alert(z);
+				var s=document.getElementById("selectLED").value;
+					
+					//alert(y);
+					if(s=='red') {
+						if(y>1.7 && y<2.4) LED();
+						else if(y>2.4) {
+							value=0;
+							Swal.fire({
+                backdrop:false,
+               target: '#exp',
+               position:'center',
+               
+                customClass: {
+                  container: 'position-absolute',
+                  popup:"swal2-popup"
+                },
+                title:'Oops..',
+                html: 'LED DAMAGED!!!',
+				imageUrl: "images/red-led.jpg",
+                        
+                });
+							
+							return;}
+						else {z=0;y=val;document.getElementById("led").innerHTML="";flag=1;}
+					}
+				else if(s=='blue') {
+						if(y>2.8 && y<3.5) LED();
+						else if(y>3.5) {
+							value=0;
+							Swal.fire({
+                backdrop:false,
+               target: '#exp',
+               position:'center',
+               
+                customClass: {
+                  container: 'position-absolute',
+                  popup:"swal2-popup"
+                },
+                title:'Oops..',
+                html: 'LED DAMAGED!!!',
+				imageUrl: "images/blue-led.jpg",
+                });
+						
+							return;}
+						else {z=0;y=val;document.getElementById("led").innerHTML="";flag=1;}
+					}
+				else if(s=='green') {
+						if(y>1.8 && y<2.4) LED();
+						else if(y>2.4) {value=0;
+							Swal.fire({
+                backdrop:false,
+               target: '#exp',
+               position:'center',
+               
+                customClass: {
+                  container: 'position-absolute',
+                  popup:"swal2-popup"
+                },
+                title:'Oops..',
+                html: 'LED DAMAGED!!!',
+				imageUrl: "images/green-led.jpg",
+                });
+						return;}
+						else {z=0;y=val;document.getElementById("led").innerHTML="";flag=1;}
+					}
+				else if(s=='yellow') {
+						if(y>1.7 && y<2.4) LED();
+						else if(y>2.4) {value=0;
+							Swal.fire({
+                backdrop:false,
+               target: '#exp',
+               position:'center',
+               
+                customClass: {
+                  container: 'position-absolute',
+                  popup:"swal2-popup"
+                },
+                title:'Oops..',
+                html: 'LED DAMAGED!!!',
+				imageUrl: "images/yellow-led.jpg",
+                });
+				return;}
+						else {z=0;y=val;document.getElementById("led").innerHTML="";flag=1;}
+					}
+					document.getElementById("x").value=val+" V";
+					document.getElementById("y").value=y+" V";  
+					document.getElementById("z").value=z+" A";
+					
+					
+			}
+			else 
+			Swal.fire({
+                backdrop:false,
+               target: '#exp',
+               position:'center',
+               
+                customClass: {
+                  container: 'position-absolute',
+                  popup:"swal2-popup"
+                },
+             title:'POWER is OFF!!!',
+                html: 'Please POWER ON before you read values.',
+               icon:'warning'
+                }); 
+			}
+			function updateBox(val) {
+			if(f==1) {
+					rtr=val;
+					document.getElementById("r").value=val+" ohms";
+				
+			}
+			else {
+				Swal.fire({
+                backdrop:false,
+               target: '#exp',
+               position:'center',
+                customClass: {
+                  container: 'position-absolute',
+                  popup:"swal2-popup"
+                },
+                title:'Power is OFF!!!',
+                html: 'Please turn on to set resistance.',
+               icon:'warning'
+                });
+			}
+			
+			}
+			
+		</script>
+		
+			
+			<div class="calc">
+			<table  cellpadding="2%" border="2 solid black" id="table">
+				<tr style="color:white;background-color:#19318F"><th colspan=6 align=center>EXPERIMENTAL READINGS</th></tr>
+				<tr bgcolor="#ffffff" class="font">
+					<th>S.No</th>
+					<th>Applied Voltage<br/>(V)</th>
+					<th>LED Voltage<br/>(V)</th>
+					<th>LED Current<br/>(A)</th>
+				</tr>
+			</table>
+			</div>
+			
+		
+			<div id="circuitsection">
+
+				<div id="circuit"><p style="text-align:center; color:white;display: contents;"><b>CIRCUIT</b></p> 		
+		<img  src="images/setup1.png" height=311 width=620 style="position:absolute;right:20;top:25;">
+		<figcaption id="figcap">Circuit diagram of Characterisation of LED</figcaption>
+		</div>
+		</div>
+
+		<div id="cntrwrap">
+
+			<div id="cntrlr"><p style="text-align:center; color:white;display: contents;"><b>CONTROLS</b></p> 
+			</div>
+			<div style="position:absolute;top: 13%;left: 3%;">
+				<b>Power On/Off</b>&ensp;&ensp;&ensp;
+					<input type="checkbox" id="switch" class="checkbox" onchange="updateLED()">
+					<label for="switch" class="toggle">
+					</label>
+				</div>
+				<div style="position: absolute;top: 33%;left: 3%;width:19em;">
+				<b>Select a LED color</b>&ensp;<select id="selectLED" onchange="display()">
+				<option value="red">RED (LS 3341-M)</option>
+				<option value="blue">BLUE (LB 3341-M)</option>
+				<option value="green">GREEN (LG 3341-M)</option>
+				<option value="yellow">YELLOW (LY 3341-M)</option>
+				</select><br>
+				
+				
+				</div>
+              <div style="position: absolute;top: 50%;left: 3%;width:19em;"> 
+				<b>V<sub>f</sub> = </b><input style="width:15%" type="text" id="vf"></input>
+			  </div>
+
+			
+		</div>
+		
+
+		<div id="led" style="position:absolute;z-index:10;left: 29.6%;top: 32.8%;width: 3%;height: 15%;"></div>
+		
+		<table cellpadding=5 >
+				
+								
+				<tr style="position: absolute;top: 39%;left: 1.5%;">
+					<th>Voltage(in V)</th>
+					<td><input type="range" min="0" max="10" step="0.001" onchange="insert()" oninput="updateTextBox(this.value)" id="stop"  style="margin-left:23px"></td>
+				</tr>
+
+				<tr style="position: absolute;top: 33%;left: 1.5%;">
+					<th>Resistance(in Ω)</th>
+					<td><input type="range" min="100" max="600" step="10" oninput="updateBox(this.value)" id="restr"></td>
+				</tr>
+				<tr><td style="position: absolute;top: 33.7%;left: 26.0%;width: 5.4%;height: 4.6%;">
+							<input type="text" id="x" style="
+									width: 100%;
+									height: 100%;
+									font-size:15px;
+									border-top-style:hidden;
+									border-right-style: hidden;
+									border-left-style: hidden;
+									border-bottom-style:hidden;
+									background-color:#D3D3D3;
+									color:black;
+									">
+					</td>
+				</tr><tr>
+				</tr><tr><td style="position: absolute;top: 19.3%;left: 46.5%;width: 5.4%;height: 4.8%;">
+							<input type="text" id="z" style="
+									width: 100%;
+									height: 100%;
+									font-size:15px;
+									border-top-style:hidden;
+									border-right-style: hidden;
+									border-left-style: hidden;
+									border-bottom-style:hidden;
+									background-color:#D3D3D3;
+									color:black;
+									">
+					</td>
+				</tr><tr>
+				</tr><tr><td style="position: absolute;top: 27.7%;left: 63.7%;height: 4.77%;width: 5.5%;">
+							<input type="text" id="y" style="
+									width: 100%;
+									height: 100%;
+									font-size:15px;
+									border-top-style:hidden;
+									border-right-style: hidde n;
+									border-left-style: hidden;
+									border-bottom-style:hidden;
+									background-color:#DCDCDC;
+									color:black;
+									">
+					</td>
+				</tr>
+			</table>
+			
+			<div class="but">
+				<button class="button" id="plot" onclick="plot()" disabled>PLOT</button><br><br>
+				<button class="button" onclick="window.location.reload()">RESET</button><br><br>
+				<button class="button" id="button1" onclick="printf()">PRINT</button><br/>
+			</div>
+
+		<div class="graph">
+			
+				<div style="height: 17em;margin-top: 1%;border: double;width:82em">
+					<center style="background-color:#19318F;color:white;font-size: 20px;font-weight: bold;height:25px;">GRAPH</center>
+					<canvas id="canvas" width="1310px" height="250px"></canvas>
+				</div>
+		</div>
+		
+		
+		<div style="position: absolute;top: 33%;left: 44.3%;width: 5%;">
+					<input style="width: 100%;" type="text" id="r"> </div>
+		</di>
+	
+		<div class="instruct">
+			<a id="myBtn" href="#">INSTRUCTIONS</a>
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="close">&times;</span>
+						<h2>Instructions</h2>
+					</div>
+					<div class="modal-body">
+						<br>
+						<ol type="1" style="font-size: 20px;">
+							<li>Toggle <b>'On/Off'</b> button to control the power to the system.</li>
+							<li>Choose the LED you want to use by selecting it from the dropdown menu (the default is set to RED).</li>
+							<li>Now move the <b>'Voltage'</b> range slider to read values into table.</li>
+							<li>Click on <b style="color:#091069">'PLOT'</b> button to plot the graph.</li>
+						</ol>
+						<label style="color:red;font-weight: bold;">Note 1:</label>
+						<b>Do not move the 'Voltage' range slider without turning on the power.</b><br/>
+						<label style="color:red;font-weight: bold;">Note 2:</label>
+						<b>Do not click 'PLOT' button without turning the system. Also, do not click 'PLOT' button without adding values into table.</b>
+					</div>
+					<div class="modal-footer">
+						<br/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script>
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function() {
+			modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+					modal.style.display = "none";
+			}
+		}
+		function printf() {
+			if(t) document.getElementById("se-pre-con").remove();
+			t=0;
+			window.print();
+		}
+		
+
+	</script>
+	<footer class="main-footer">
+		<div  style="font-size: 16px;color:white;margin:auto;font-weight: bold;">© 2023 Virtual Labs, IIT Roorkee<!-- Institute Name --> </div>
+	  </footer>
+</body>
+</html>
