@@ -2883,7 +2883,6 @@
 
 }).call(typeof window !== 'undefined' ? window : this);
 
-
 (function() {
 
     var root = this;
@@ -11623,7 +11622,6 @@
                 y = swapY ? params.targetPos[1] : params.sourcePos[1],
                 w = Math.abs(params.targetPos[0] - params.sourcePos[0]),
                 h = Math.abs(params.targetPos[1] - params.sourcePos[1]);
-
             // if either anchor does not have an orientation set, we derive one from their relative
             // positions.  we fix the axis to be the one in which the two elements are further apart, and
             // point each anchor at the other element.  this is also used when dragging a new connection.

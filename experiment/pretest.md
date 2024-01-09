@@ -17,6 +17,14 @@ C   30 nm to 50 nm
 D   40 nm to 50 nm  
 <br>
 
+A     Bistable multivibrator  
+<b>B     Monostable multivibrator</b>  
+C     Astable multivibrator  
+D     None of the above  
+<br>
+  
+   
+Q4. The multivibrator which generates square wave of its own is the \_\_\_\_\_\_\_\_\_ multivibrator.  
 
 Q3. Which of the following is not a characteristic of LED?<br>
 
