@@ -1,42 +1,43 @@
-## <b> Pre-test
+##  Pre Test 
 #### Please attempt the following questions
+  
+  
+Q1. A self-synchronizing digital signal includes timing.State True/False<br>
 
-Q1. The real image of an object formed by the objective must lie:<br>
-
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
-
-
-Q2. Fly levelling is another name of __________<br>
-
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
+<b>A   True</b>  
+B   False    
+<br>
 
 
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
+Q2. The \_\_\_\_\_\_\_\_\_ mode provides synchronization for entire stream of bit must.<br>
 
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
-
-
-
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
-
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
+A   synchronous  
+<b>B   isochronous</b>  
+C   asynchronous  
+D   None of the above  
+<br>
 
 
-Q5. Rise and fall method is used in:<br>
+Q3. A signal rate sometimes called the \_\_\_\_\_\_\_ rate.<br>
 
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
+A   bit  
+<b>B   baud</b>  
+C   signal  
+D   none of the above  
+<br>
+
+
+Q4. In a \_\_\_\_\_\_\_\_ schemes,all the signal levels are on one side of the time axis,either below or above.<br>
+  
+A   polar  
+B   bi polar  
+C   multi polar  
+<b>D   uni polar</b>  
+<br>
+
+
+Q5. In polar schemes the voltages are on the both sides of the time axis.State True/False<br>
+
+<b>A   True</b>    
+B   False  
+
