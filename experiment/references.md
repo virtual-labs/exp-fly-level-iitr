@@ -1,5 +1,19 @@
-1) Jan Van Sickle,"GPS for Land Surveyors", CRC Press, 4th edition, 2015<br>
-2) S.K. Roy, "Fundamentals of Surveying", Asoke K. Ghosh Prentice-Hall of India Pvt. Ltd., 1999<br>
-3) Dr. B. C. Punmia, Ashok Kumar Jain, Arun Kumar Jain,"Surveying", Vol. 2, Laxmi Publications, Sixteenth edition, 2016<br>
-4) N.N. Basak,"Surveying and Levelling", McGraw Hill Education, 2nd edition, 2017<br>
-5) W. Schofield, Mark Breach, "Engineering Surveying", Butterworth-Heineman, Sixth Edition, 2007<br>
+#### Text Books:
+
+*   Optical Fiber Communication – Gerd Keiser, 4<sup>th</sup> Edition, MGH, 2008 
+*   Optical Fiber Communications - John M. Senior, Pearson Education, 3<sup>rd</sup> Edition, Impression, 2007.
+
+#### Web links:
+
+*   [https://litetronix.com.tw/index.php/technology/characteristics-of-led/](https://litetronix.com.tw/index.php/technology/characteristics-of-led/)
+*   [https://www.electronics-tutorials.ws/diode/diode\_8.html](https://www.electronics-tutorials.ws/diode/diode_8.html)
+*   [https://www.ledsmagazine.com/leds-ssl-design/materials/article/16701292/what-is-an-led](https://www.ledsmagazine.com/leds-ssl-design/materials/article/16701292/what-is-an-led)
+*   [https://learn.adafruit.com/all-about-leds/the-led-datasheet](https://learn.adafruit.com/all-about-leds/the-led-datasheet)
+
+  
+#### Youtube links:
+
+*   [https://www.youtube.com/watch?v=Yo6JI\_bzUzo](https://www.youtube.com/watch?v=Yo6JI_bzUzo)
+*   [https://www.youtube.com/watch?v=9Ly4qW8pyuw&t=1926s](https://www.youtube.com/watch?v=9Ly4qW8pyuw&t=1926s)
+*   [https://www.youtube.com/watch?v=cbOx90aHh68&t=365s](https://www.youtube.com/watch?v=cbOx90aHh68&t=365s)
+*   [https://www.youtube.com/watch?v=9SBpHBagZ5E](https://www.youtube.com/watch?v=9SBpHBagZ5E)
