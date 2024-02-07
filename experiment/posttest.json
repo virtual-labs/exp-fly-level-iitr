@@ -1,5 +1,21 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 [{"question":"Ideal regulated power supplies have_______% voltage regulation.","answers":{"a":"2","b":"0","c":"7","d":"5"},"correctAnswer":"b"},
 {"question":"How many terminals do fixed voltage regulators have?","answers":{"a":"One","b":"Two","c":"Three","d":"Four"},"correctAnswer":"c"},
 {"question":"Thermal shutdown occurs in an IC regulator if ","answers":{"a":"Internal temperature is too high","b":"Power dissipation is too high","c":"Current through the device is too high","d":"All of the above"},"correctAnswer":"a"},
 {"question":"The 78XX series of voltage regulators produce an output voltage that is","answers":{"a":"Negative","b":"Positive","c":"Either positive or Negative","d":"Unregulated"},"correctAnswer":"b"},
 {"question":"What happens to the capacitance when a dielectric material is inserted between the plates of a parallel plate capacitor?","answers":{"a":"Capacitance decreases","b":"Capacitance remains same","c":"Capacitance increases","d":"Depends upon the material of the dielectric"},"correctAnswer":"c"}]
+<<<<<<< HEAD
+=======
+=======
+[{"question":"A light emitting diode is _________","answers":{"a":"Lightly doped","b":"Heavily doped","c":"Zener diode","d":"Intrinsic semiconductor"},"correctAnswer":"b"},
+{"question":"Which of the following materials can be used to produce infrared LED?","answers":{"a":"GaAs","b":"si","c":"Na","d":"Cds"},"correctAnswer":"a"},
+{"question":"What should be the band gap of the semiconductors to be used as LED","answers":{"a":"0.9eV","b":"1.8eV","c":"1eV","d":"5.2eV"},"correctAnswer":"b"},
+{"question":"Which process of the Electron-hole pair is responsible for emitting of light?","answers":{"a":"Generation","b":"Recombination","c":"Movement","d":"Diffusion"},"correctAnswer":"b"},
+{"question":"What should be the biasing of the LED?","answers":{"a":"Reverse bias","b":"Forward bias than Reverse bias","c":"No biasing required","d":"Forward bias"},"correctAnswer":"d"}]
+
+
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228

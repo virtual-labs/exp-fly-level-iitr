@@ -26,7 +26,15 @@ class Graph {
         // Since graph is undirected, 
         // add an edge from w to v also 
         this.AdjList.get(w).push(v);
+<<<<<<< HEAD
          this.numberofedges++;
+=======
+<<<<<<< HEAD
+         this.numberofedges++;
+=======
+        this.numberofedges++;
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
     }
 
     // Prints the vertex and adjacency list 

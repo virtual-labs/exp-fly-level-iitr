@@ -2883,6 +2883,10 @@
 
 }).call(typeof window !== 'undefined' ? window : this);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 /*
  * Utility functions.
  *
@@ -2893,6 +2897,15 @@
  *
  * Dual licensed under the MIT and GPL2 licenses.
  */
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3fb207a3d91c2326c2b7128d925fa425c7bfdcf0
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 (function() {
 
     var root = this;
@@ -3583,7 +3596,15 @@
 /*
  * This file contains utility functions that run in browsers only.
  *
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -3645,6 +3666,10 @@
 
  }).call(typeof window !== 'undefined' ? window : this);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 /*
  * This file contains the code for working with scrollable lists.
  *
@@ -3655,6 +3680,11 @@
  *
  * Dual licensed under the MIT and GPL2 licenses.
  */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 ;(function() {
 
     var DEFAULT_OPTIONS = {
@@ -3886,7 +3916,15 @@
 /*
  * This file contains the core code.
  *
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -4359,7 +4397,15 @@
 
     var jsPlumbInstance = root.jsPlumbInstance = function (_defaults) {
 
+<<<<<<< HEAD
         this.version = "2.14.3";
+=======
+<<<<<<< HEAD
+        this.version = "2.14.3";
+=======
+        this.version = "2.13.2";
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
         this.Defaults = {
             Anchor: "Bottom",
@@ -4867,7 +4913,15 @@
                 // connection is new; it has just (possibly) moved. the question is whether
                 // to make that call here or in the anchor manager.  i think perhaps here.
                 if (doInformAnchorManager !== false) {
+<<<<<<< HEAD
                     _currentInstance.router.newConnection(jpc);
+=======
+<<<<<<< HEAD
+                    _currentInstance.router.newConnection(jpc);
+=======
+                    _currentInstance.anchorManager.newConnection(jpc);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                 }
 
                 // force a paint
@@ -5273,11 +5327,25 @@
 
         this.setSource = function (connection, el, doNotRepaint) {
             var p = _set(connection, el, 0, doNotRepaint);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
             this.router.sourceOrTargetChanged(p.originalSourceId, p.newSourceId, connection, p.el, 0);
         };
         this.setTarget = function (connection, el, doNotRepaint) {
             var p = _set(connection, el, 1, doNotRepaint);
             this.router.sourceOrTargetChanged(p.originalTargetId, p.newTargetId, connection, p.el, 1);
+<<<<<<< HEAD
+=======
+=======
+            this.anchorManager.sourceChanged(p.originalSourceId, p.newSourceId, connection, p.el);
+        };
+        this.setTarget = function (connection, el, doNotRepaint) {
+            var p = _set(connection, el, 1, doNotRepaint);
+            this.anchorManager.updateOtherEndpoint(p.originalSourceId, p.originalTargetId, p.newTargetId, connection);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
         };
 
         this.deleteEndpoint = function (object, dontUpdateHover, deleteAttachedObjects) {
@@ -5303,7 +5371,15 @@
             endpointsByUUID = {};
             offsets = {};
             offsetTimestamps = {};
+<<<<<<< HEAD
             _currentInstance.router.reset();
+=======
+<<<<<<< HEAD
+            _currentInstance.router.reset();
+=======
+            _currentInstance.anchorManager.reset();
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
             var dm = _currentInstance.getDragManager();
             if (dm) {
                 dm.reset();
@@ -5332,7 +5408,15 @@
             // always fire this. used by internal jsplumb stuff.
             _currentInstance.fire("internal.connectionDetached", params, originalEvent);
 
+<<<<<<< HEAD
             _currentInstance.router.connectionDetached(params);
+=======
+<<<<<<< HEAD
+            _currentInstance.router.connectionDetached(params);
+=======
+            _currentInstance.anchorManager.connectionDetached(params);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
         };
 
         var fireMoveEvent = _currentInstance.fireMoveEvent = function (params, evt) {
@@ -5372,7 +5456,15 @@
          * @method deleteConnection
          * @param connection Connection to delete
          * @param {Object} [params] Optional delete parameters
+<<<<<<< HEAD
          * @param {Boolean} [params.fireEvent=true] If false, a connection detached event will not be fired. Otherwise one will.
+=======
+<<<<<<< HEAD
+         * @param {Boolean} [params.fireEvent=true] If false, a connection detached event will not be fired. Otherwise one will.
+=======
+         * @param {Boolean} [params.doNotFireEvent=false] If true, a connection detached event will not be fired. Otherwise one will.
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
          * @param {Boolean} [params.force=false] If true, the connection will be deleted even if a beforeDetach interceptor tries to stop the deletion.
          * @returns {Boolean} True if the connection was deleted, false otherwise.
          */
@@ -5910,8 +6002,17 @@
         this.init = function () {
             if (!initialized) {
                 _getContainerFromDefaults();
+<<<<<<< HEAD
                 _currentInstance.router = new root.jsPlumb.DefaultRouter(_currentInstance);
                 _currentInstance.anchorManager = _currentInstance.router.anchorManager;
+=======
+<<<<<<< HEAD
+                _currentInstance.router = new root.jsPlumb.DefaultRouter(_currentInstance);
+                _currentInstance.anchorManager = _currentInstance.router.anchorManager;
+=======
+                _currentInstance.anchorManager = new root.jsPlumb.AnchorManager({jsPlumbInstance: _currentInstance});
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                 initialized = true;
                 _currentInstance.fire("ready", _currentInstance);
             }
@@ -6725,7 +6826,16 @@
                 if (dm) {
                     dm.elementRemoved(_info.id);
                 }
+<<<<<<< HEAD
                 _currentInstance.router.elementRemoved(_info.id);
+=======
+<<<<<<< HEAD
+                _currentInstance.router.elementRemoved(_info.id);
+=======
+                _currentInstance.anchorManager.clearFor(_info.id);
+                _currentInstance.anchorManager.removeFloatingConnection(_info.id);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
                 if (_currentInstance.isSource(_info.el)) {
                     _currentInstance.unmakeSource(_info.el);
@@ -6895,7 +7005,15 @@
             this.targetEndpointDefinitions[newId] = this.targetEndpointDefinitions[id];
             delete this.targetEndpointDefinitions[id];
 
+<<<<<<< HEAD
             this.router.changeId(id, newId);
+=======
+<<<<<<< HEAD
+            this.router.changeId(id, newId);
+=======
+            this.anchorManager.changeId(id, newId);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
             var dm = this.getDragManager();
             if (dm) {
                 dm.changeId(id, newId);
@@ -7101,10 +7219,27 @@
 
             // and advise the anchor manager
             if (index === 0) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                 this.router.sourceOrTargetChanged(originalElementId, proxyElId, connection, proxyEl, 0);
             }
             else {
                 this.router.sourceOrTargetChanged(originalElementId, proxyElId, connection, proxyEl, 1);
+<<<<<<< HEAD
+=======
+=======
+                // TODO why are there two differently named methods? Why is there not one method that says "some end of this
+                // connection changed (you give the index), and here's the new element and element id."
+                this.anchorManager.sourceChanged(originalElementId, proxyElId, connection, proxyEl);
+            }
+            else {
+                this.anchorManager.updateOtherEndpoint(connection.endpoints[0].elementId, originalElementId, proxyElId, connection);
+                connection.target = proxyEl;
+                connection.targetId = proxyElId;
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
             }
 
             // detach the original EP from the connection.
@@ -7134,10 +7269,25 @@
             if (index === 0) {
                 // TODO why are there two differently named methods? Why is there not one method that says "some end of this
                 // connection changed (you give the index), and here's the new element and element id."
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                 this.router.sourceOrTargetChanged(proxyElId, originalElementId, connection, originalElement, 0);
             }
             else {
                 this.router.sourceOrTargetChanged(proxyElId, originalElementId, connection, originalElement, 1);
+<<<<<<< HEAD
+=======
+=======
+                this.anchorManager.sourceChanged(proxyElId, originalElementId, connection, originalElement);
+            }
+            else {
+                this.anchorManager.updateOtherEndpoint(connection.endpoints[0].elementId, proxyElId, originalElementId, connection);
+                connection.target = originalElement;
+                connection.targetId = originalElementId;
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
             }
 
             // detach the proxy EP from the connection (which will cause it to be removed as we no longer need it)
@@ -7197,7 +7347,15 @@
 }).call(typeof window !== 'undefined' ? window : this);
 
 /*
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -7507,7 +7665,15 @@
 /*
  * This file contains the code for Endpoints.
  *
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  * 
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -7563,6 +7729,15 @@
     // create a floating endpoint (for drag connections)
     var _makeFloatingEndpoint = function (paintStyle, referenceAnchor, endpoint, referenceCanvas, sourceElement, _jsPlumb, _newEndpoint, scope) {
         var floatingAnchor = new _jp.FloatingAnchor({ reference: referenceAnchor, referenceCanvas: referenceCanvas, jsPlumbInstance: _jsPlumb });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        //setting the scope here should not be the way to fix that mootools issue.  it should be fixed by not
+        // adding the floating endpoint as a droppable.  that makes more sense anyway!
+        // TRANSIENT MANAGE
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
         return _newEndpoint({
             paintStyle: paintStyle,
             endpoint: endpoint,
@@ -8131,7 +8306,15 @@
                         // becomes established, the anchor manager is informed that the target of the connection has
                         // changed.
 
+<<<<<<< HEAD
                         _jsPlumb.router.newConnection(jpc);
+=======
+<<<<<<< HEAD
+                        _jsPlumb.router.newConnection(jpc);
+=======
+                        _jsPlumb.anchorManager.newConnection(jpc);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
                     } else {
                         existingJpc = true;
@@ -8151,11 +8334,28 @@
                         // now we replace ourselves with the temporary div we created above:
                         if (anchorIdx === 0) {
                             existingJpcParams = [ jpc.source, jpc.sourceId, canvasElement, dragScope ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                             _jsPlumb.router.sourceOrTargetChanged(jpc.endpoints[anchorIdx].elementId, placeholderInfo.id, jpc, placeholderInfo.element, 0);
 
                         } else {
                             existingJpcParams = [ jpc.target, jpc.targetId, canvasElement, dragScope ];
                             _jsPlumb.router.sourceOrTargetChanged(jpc.endpoints[anchorIdx].elementId, placeholderInfo.id, jpc, placeholderInfo.element, 1);
+<<<<<<< HEAD
+=======
+=======
+                            _jsPlumb.anchorManager.sourceChanged(jpc.endpoints[anchorIdx].elementId, placeholderInfo.id, jpc, placeholderInfo.element);
+
+                        } else {
+                            existingJpcParams = [ jpc.target, jpc.targetId, canvasElement, dragScope ];
+                            jpc.target = placeholderInfo.element;
+                            jpc.targetId = placeholderInfo.id;
+
+                            _jsPlumb.anchorManager.updateOtherEndpoint(jpc.sourceId, jpc.endpoints[anchorIdx].elementId, jpc.targetId, jpc);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                         }
 
                         // store the original endpoint and assign the new floating endpoint for the drag.
@@ -8176,6 +8376,20 @@
 
                     _jsPlumb.registerFloatingConnection(placeholderInfo, jpc, this._jsPlumb.floatingEndpoint);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                    // // register it and register connection on it.
+                    // _jsPlumb.floatingConnections[placeholderInfo.id] = jpc;
+                    //
+                    // // only register for the target endpoint; we will not be dragging the source at any time
+                    // // before this connection is either discarded or made into a permanent connection.
+                    // _ju.addToList(params.endpointsByElement, placeholderInfo.id, this._jsPlumb.floatingEndpoint);
+
+
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                     // tell jsplumb about it
                     _jsPlumb.currentlyDragging = true;
                 }.bind(this);
@@ -8189,7 +8403,17 @@
                         // unlock the other endpoint (if it is dynamic, it would have been locked at drag start)
                         var idx = _jsPlumb.getFloatingAnchorIndex(jpc);
                         jpc.endpoints[idx === 0 ? 1 : 0].anchor.unlock();
+<<<<<<< HEAD
                         jpc.removeClass(_jsPlumb.draggingClass);
+=======
+<<<<<<< HEAD
+                        jpc.removeClass(_jsPlumb.draggingClass);
+=======
+                        // TODO: Dont want to know about css classes inside jsplumb, ideally.
+                        jpc.removeClass(_jsPlumb.draggingClass);
+
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                         // if we have the floating endpoint then the connection has not been dropped
                         // on another endpoint.  If it is a new connection we throw it away. If it is an
                         // existing connection we check to see if we should reattach it, throwing it away
@@ -8234,10 +8458,23 @@
                                     // in the code; it all refers to the connection itself. we could add a
                                     // `checkSanity(connection)` method to anchorManager that did this.
                                     if (idx === 1) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                                         _jsPlumb.router.sourceOrTargetChanged(jpc.floatingId, jpc.targetId, jpc, jpc.target, idx);
                                     }
                                     else {
                                         _jsPlumb.router.sourceOrTargetChanged(jpc.floatingId, jpc.sourceId, jpc, jpc.source, idx);
+<<<<<<< HEAD
+=======
+=======
+                                        _jsPlumb.anchorManager.updateOtherEndpoint(jpc.sourceId, jpc.floatingId, jpc.targetId, jpc);
+                                    }
+                                    else {
+                                        _jsPlumb.anchorManager.sourceChanged(jpc.floatingId, jpc.sourceId, jpc, jpc.source);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                                     }
 
                                     _jsPlumb.repaint(existingJpcParams[1]);
@@ -8693,10 +8930,23 @@
                     }
 
                     if (idx === 1) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                         _jsPlumb.router.sourceOrTargetChanged(jpc.floatingId, jpc.targetId, jpc, jpc.target, 1);
                     }
                     else {
                         _jsPlumb.router.sourceOrTargetChanged(jpc.floatingId, jpc.sourceId, jpc, jpc.source, 0);
+<<<<<<< HEAD
+=======
+=======
+                        _jsPlumb.anchorManager.updateOtherEndpoint(jpc.sourceId, jpc.floatingId, jpc.targetId, jpc);
+                    }
+                    else {
+                        _jsPlumb.anchorManager.sourceChanged(jpc.floatingId, jpc.sourceId, jpc, jpc.source);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                     }
 
                     // when makeSource has uniqueEndpoint:true, we want to create connections with new endpoints
@@ -8741,10 +8991,23 @@
 
                         // TODO checkSanity
                         if (idx === 1) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                             _jsPlumb.router.sourceOrTargetChanged(jpc.floatingId, jpc.targetId, jpc, jpc.target, 1);
                         }
                         else {
                             _jsPlumb.router.sourceOrTargetChanged(jpc.floatingId, jpc.sourceId, jpc, jpc.source, 0);
+<<<<<<< HEAD
+=======
+=======
+                            _jsPlumb.anchorManager.updateOtherEndpoint(jpc.sourceId, jpc.floatingId, jpc.targetId, jpc);
+                        }
+                        else {
+                            _jsPlumb.anchorManager.sourceChanged(jpc.floatingId, jpc.sourceId, jpc, jpc.source);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                         }
 
                         _jsPlumb.repaint(jpc.sourceId);
@@ -8780,7 +9043,15 @@
 /*
  * This file contains the code for Connections.
  *
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -9426,7 +9697,15 @@
             this._jsPlumb.instance.deleteObject({endpoint:current, deleteAttachedObjects:false});
             this._jsPlumb.instance.fire("endpointReplaced", {previous:current, current:_new});
 
+<<<<<<< HEAD
             this._jsPlumb.instance.router.sourceOrTargetChanged(this.endpoints[1].elementId, this.endpoints[1].elementId, this, this.endpoints[1].element, 1);
+=======
+<<<<<<< HEAD
+            this._jsPlumb.instance.router.sourceOrTargetChanged(this.endpoints[1].elementId, this.endpoints[1].elementId, this, this.endpoints[1].element, 1);
+=======
+            this._jsPlumb.instance.anchorManager.updateOtherEndpoint(this.endpoints[0].elementId, this.endpoints[1].elementId, this.endpoints[1].elementId, this);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
         }
 
@@ -9436,7 +9715,15 @@
 /*
  * This file contains the code for creating and manipulating anchors.
  *
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -9546,6 +9833,15 @@
         this.addFloatingConnection = function (key, conn) {
             floatingConnections[key] = conn;
         };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        this.removeFloatingConnection = function (key) {
+            delete floatingConnections[key];
+        };
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
         this.newConnection = function (conn) {
             var sourceId = conn.sourceId, targetId = conn.targetId,
                 ep = conn.endpoints,
@@ -9627,8 +9923,17 @@
             });
             removeEndpointFromAnchorLists(endpoint);
         };
+<<<<<<< HEAD
         this.elementRemoved = function (elementId) {
             delete floatingConnections[elementId];
+=======
+<<<<<<< HEAD
+        this.elementRemoved = function (elementId) {
+            delete floatingConnections[elementId];
+=======
+        this.clearFor = function (elementId) {
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
             delete _amEndpoints[elementId];
             _amEndpoints[elementId] = [];
         };
@@ -9706,13 +10011,58 @@
         };
 
         //
+<<<<<<< HEAD
         // Notification that the connection given has changed source/target from the originalId to the newId.
         //
         // For a change of source this involves:
+=======
+<<<<<<< HEAD
+        // Notification that the connection given has changed source/target from the originalId to the newId.
+        //
+        // For a change of source this involves:
+=======
+        // find the entry in an endpoint's list for this connection and update its target endpoint
+        // with the current target in the connection.
+        // This method and sourceChanged need to be folder into one.
+        //
+        this.updateOtherEndpoint = function (sourceElId, oldTargetId, newTargetId, connection) {
+            var sIndex = _ju.findWithFunction(connectionsByElementId[sourceElId], function (i) {
+                    return i[0].id === connection.id;
+                }),
+                tIndex = _ju.findWithFunction(connectionsByElementId[oldTargetId], function (i) {
+                    return i[0].id === connection.id;
+                });
+
+            // update or add data for source
+            if (sIndex !== -1) {
+                connectionsByElementId[sourceElId][sIndex][0] = connection;
+                connectionsByElementId[sourceElId][sIndex][1] = connection.endpoints[1];
+                connectionsByElementId[sourceElId][sIndex][2] = connection.endpoints[1].anchor.constructor === _jp.DynamicAnchor;
+            }
+
+            // remove entry for previous target (if there)
+            if (tIndex > -1) {
+                connectionsByElementId[oldTargetId].splice(tIndex, 1);
+                // add entry for new target
+                _ju.addToList(connectionsByElementId, newTargetId, [connection, connection.endpoints[0], connection.endpoints[0].anchor.constructor === _jp.DynamicAnchor]);
+            }
+
+            connection.updateConnectedClass();
+        };
+
+        //
+        // notification that the connection given has changed source from the originalId to the newId.
+        // This involves:
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
         // 1. removing the connection from the list of connections stored for the originalId
         // 2. updating the source information for the target of the connection
         // 3. re-registering the connection in connectionsByElementId with the newId
         //
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
         // For a change of target this means find the entry in an endpoint's list for this connection and update its target endpoint
         // with the current target in the connection.
         //
@@ -9779,6 +10129,45 @@
                     connectionsByElementId[originalId].splice(tIndex, 1);
                     // add entry for new target
                     _ju.addToList(connectionsByElementId, newId, [connection, connection.endpoints[0], connection.endpoints[0].anchor.constructor === _jp.DynamicAnchor]);
+<<<<<<< HEAD
+=======
+=======
+        this.sourceChanged = function (originalId, newId, connection, newElement) {
+            if (originalId !== newId) {
+
+                connection.sourceId = newId;
+                connection.source = newElement;
+
+                // remove the entry that points from the old source to the target
+                _ju.removeWithFunction(connectionsByElementId[originalId], function (info) {
+                    return info[0].id === connection.id;
+                });
+                // find entry for target and update it
+                var tIdx = _ju.findWithFunction(connectionsByElementId[connection.targetId], function (i) {
+                    return i[0].id === connection.id;
+                });
+                if (tIdx > -1) {
+                    connectionsByElementId[connection.targetId][tIdx][0] = connection;
+                    connectionsByElementId[connection.targetId][tIdx][1] = connection.endpoints[0];
+                    connectionsByElementId[connection.targetId][tIdx][2] = connection.endpoints[0].anchor.constructor === _jp.DynamicAnchor;
+                }
+                // add entry for new source
+                _ju.addToList(connectionsByElementId, newId, [connection, connection.endpoints[1], connection.endpoints[1].anchor.constructor === _jp.DynamicAnchor]);
+
+                // TODO SP not final on this yet. when a user drags an existing connection and it turns into a self
+                // loop, then this code hides the target endpoint (by removing it from the DOM) But I think this should
+                // occur only if the anchor is Continuous
+                if (connection.endpoints[1].anchor.isContinuous) {
+                    if (connection.source === connection.target) {
+                        connection._jsPlumb.instance.removeElement(connection.endpoints[1].canvas);
+                    }
+                    else {
+                        if (connection.endpoints[1].canvas.parentNode == null) {
+                            connection._jsPlumb.instance.appendElement(connection.endpoints[1].canvas);
+                        }
+                    }
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                 }
 
                 connection.updateConnectedClass();
@@ -9808,10 +10197,25 @@
 
             for (var i = 0; i < ep.connections.length; i++) {
                 if (ep.connections[i].sourceId === currentId) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                     self.sourceOrTargetChanged(currentId, ep.elementId, ep.connections[i], ep.element, 0);
                 }
                 else if (ep.connections[i].targetId === currentId) {
                     self.sourceOrTargetChanged(currentId, ep.elementId, ep.connections[i], ep.element, 1);
+<<<<<<< HEAD
+=======
+=======
+                    self.sourceChanged(currentId, ep.elementId, ep.connections[i], ep.element);
+                }
+                else if (ep.connections[i].targetId === currentId) {
+                    ep.connections[i].targetId = ep.elementId;
+                    ep.connections[i].target = ep.element;
+                    self.updateOtherEndpoint(ep.connections[i].sourceId, currentId, ep.elementId, ep.connections[i]);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                 }
             }
         };
@@ -10726,6 +11130,10 @@
 }).call(typeof window !== 'undefined' ? window : this);
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  * Default router. Defers to an AnchorManager for placement of anchors, and connector paint routines for paths.
  * Currently this is a placeholder and acts as a facade to the pre-existing anchor manager. The Toolkit edition
  * will make use of concept to provide more advanced routing.
@@ -10786,6 +11194,14 @@
  * This file contains the default Connectors, Endpoint and Overlay definitions.
  *
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+<<<<<<< HEAD
+=======
+=======
+ * This file contains the default Connectors, Endpoint and Overlay definitions.
+ *
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  * 
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -11676,7 +12092,18 @@
                 y = swapY ? params.targetPos[1] : params.sourcePos[1],
                 w = Math.abs(params.targetPos[0] - params.sourcePos[0]),
                 h = Math.abs(params.targetPos[1] - params.sourcePos[1]);
+<<<<<<< HEAD
             
+=======
+<<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3fb207a3d91c2326c2b7128d925fa425c7bfdcf0
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
             // if either anchor does not have an orientation set, we derive one from their relative
             // positions.  we fix the axis to be the one in which the two elements are further apart, and
             // point each anchor at the other element.  this is also used when dragging a new connection.
@@ -13548,7 +13975,15 @@
 /*
  * This file contains the 'flowchart' connectors, consisting of vertical and horizontal line segments.
  *
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -13910,11 +14345,24 @@
     _ju.extend(_jp.Connectors.Flowchart, _jp.Connectors.AbstractConnector);
 
 }).call(typeof window !== 'undefined' ? window : this);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
 /*
  * This file contains the code for the Bezier connector type.
  *
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+<<<<<<< HEAD
+=======
+=======
+/*
+ * This file contains the code for the Bezier connector type.
+ *
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -14064,11 +14512,24 @@
     _ju.extend(Bezier, _jp.Connectors.AbstractBezierConnector);
 
 }).call(typeof window !== 'undefined' ? window : this);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
 /*
  * This file contains the state machine connectors, which extend AbstractBezierConnector.
  *
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+<<<<<<< HEAD
+=======
+=======
+/*
+ * This file contains the state machine connectors, which extend AbstractBezierConnector.
+ *
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -14260,11 +14721,24 @@
     _ju.extend(StateMachine, _jp.Connectors.AbstractBezierConnector);
 
 }).call(typeof window !== 'undefined' ? window : this);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
 /*
  * This file contains the 'flowchart' connectors, consisting of vertical and horizontal line segments.
  *
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+<<<<<<< HEAD
+=======
+=======
+/*
+ * This file contains the 'flowchart' connectors, consisting of vertical and horizontal line segments.
+ *
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -14293,11 +14767,24 @@
     _ju.extend(Straight, _jp.Connectors.AbstractConnector);
 
 }).call(typeof window !== 'undefined' ? window : this);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
 /*
  * This file contains the SVG renderers.
  *
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+<<<<<<< HEAD
+=======
+=======
+/*
+ * This file contains the SVG renderers.
+ *
+ * Copyright (c) 2010 - 2018 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  * 
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb
@@ -14518,7 +15005,15 @@
                 }
 
                 if (params.useDivWrapper) {
+<<<<<<< HEAD
                     _ju.sizeElement(this.canvas, xy[0], xy[1], wh[0] > 0 ? wh[0] : 1, wh[1] > 0 ? wh[1] : 1);
+=======
+<<<<<<< HEAD
+                    _ju.sizeElement(this.canvas, xy[0], xy[1], wh[0] > 0 ? wh[0] : 1, wh[1] > 0 ? wh[1] : 1);
+=======
+                    _ju.sizeElement(this.canvas, xy[0], xy[1], wh[0], wh[1]);
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                     xy[0] = 0;
                     xy[1] = 0;
                     p = _pos([ 0, 0 ]);
@@ -14531,8 +15026,18 @@
 
                 _attr(this.svg, {
                     "style": p,
+<<<<<<< HEAD
                     "width": wh[0] || 1,
                     "height": wh[1] || 1
+=======
+<<<<<<< HEAD
+                    "width": wh[0] || 1,
+                    "height": wh[1] || 1
+=======
+                    "width": wh[0] || 0,
+                    "height": wh[1] || 0
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
                 });
             }
         };
@@ -14922,7 +15427,15 @@
 /*
  * This file contains code used when jsPlumb is being rendered in a DOM.
  *
+<<<<<<< HEAD
  * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+<<<<<<< HEAD
+ * Copyright (c) 2010 - 2020 jsPlumb (hello@jsplumbtoolkit.com)
+=======
+ * Copyright (c) 2010 - 2019 jsPlumb (hello@jsplumbtoolkit.com)
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
  *
  * https://jsplumbtoolkit.com
  * https://github.com/jsplumb/jsplumb

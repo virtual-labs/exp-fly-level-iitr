@@ -3,6 +3,7 @@
 
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
+<<<<<<< HEAD
 <b> Lab | <b> Analog and Digital Electronics-II
 <b> Experiment|     <b>1. Study & design regulated power supply.
 
@@ -10,6 +11,16 @@
 
 To design a regulated power supply and study the capacitor and output DC waveform in the CRO.
 
+=======
+
+<b> Lab | <b> Analog and Digital Electronics-II
+<b> Experiment|     <b>1. Study & design regulated power supply.
+
+### About the Experiment 
+
+To design a regulated power supply and study the capacitor and output DC waveform in the CRO.
+
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 <b>Name of Developer | <b> Prof RS Anand 
 :--|:--|
 <b> Institute | <b>  IIT Roorkee
@@ -24,5 +35,9 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 2 | Nipun Jain | Project Associate | Electrical Engineering | IIT Roorkee | nipunjain1305@gmail.com
 3 | Pragya Daksh | Project Associate | Electrical Engineering | IIT Roorkee | prgdaksh@gmail.com
 4 | Piyush Rawat | Project Associate | Electrical Engineering | IIT Roorkee | rawatpiyush72@gmail.com
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98ac8962710bb24e3b7b47057a396170dea18228
 
 
