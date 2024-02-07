@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 [{"question":"The regulated DC power supply also called _________?","answers":{"a":"Linear power supply","b":"Non-linear power supply","c":"Both a and b","d":"None of the above"},"correctAnswer":"a"},
 {"question":"The rectification is a process of converting _________?","answers":{"a":"Alternating current into direct quantity","b":"Alternating voltage into direct quantity","c":"Alternating current or voltage into direct quantity","d":"None of the above"},"correctAnswer":"c"},
 {"question":"The output of the rectification is _________?","answers":{"a":"Unidirectional","b":"Bidirectional","c":"Multidirectional","d":"None of the above"},"correctAnswer":"a"},
 {"question":"The efficiency of linear power supply is around _______?","answers":{"a":"10-20%","b":"15-20%","c":"30-40%","d":"20-30%"},"correctAnswer":"c"},
 {"question":"Which transformer is used in a regulated DC power supply?","answers":{"a":"Step up","b":"Step down","c":"Both a or b","d":"None of the above"},"correctAnswer":"b"}]
+=======
+[{"question":"The reverse breakdown voltage of LED is very low. State True/False?","answers":{"a":"True","b":"False"},"correctAnswer":"a"},
+{"question":"What is the bandwidth of the emitted light in an LED?","answers":{"a":"20 nm to 50 nm","b":"10 nm to 50 nm","c":"30 nm to 50 nm","d":"40 nm to 50 nm"},"correctAnswer":"b"},
+{"question":"Which of the following is not a characteristic of LED?","answers":{"a":"High voltage","b":"High Warm-up time","c":"Long life","d":"Fast action"},"correctAnswer":"b"},
+{"question":"LED _____________","answers":{"a":"Laser Emittig Diode","b":"Liquid Emittig Diode","c":"Loss Emittig Diode","d":"Light Emittig Diode"},"correctAnswer":"d"},
+{"question":"Increase in the forward current always increases the intensity of an LED. State True/False?","answers":{"a":"True","b":"False"},"correctAnswer":"b"}]
+
+
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5

@@ -1,6 +1,7 @@
 ### Introduction
 <div style="text-align:justify">
 
+<<<<<<< HEAD
 A regulated power supply converts unregulated AC (Alternating Current) to a constant DC (Direct Current). A regulated power supply is used to ensure that the output remains constant even if the input changes. A regulated DC power supply is also known as a linear power supply, it is an embedded circuit and consists of various blocks.<br>
 
 The regulated power supply will accept an AC input and give a constant DC output. The figure below shows the block diagram of a typical regulated DC power supply.
@@ -68,5 +69,32 @@ This is the last block in a regulated DC power supply. The output voltage or cur
 3. Oscillators and amplifiers
 4. Electronic computers
 5. Automatic control systems
+=======
+A Light Emitting Diode (LED) is a semiconductor diode that emits light when an electric current is applied in forward direction of the device as in simple LED circuit. The effect is a form of electroluminescence where incoherent and narrow-spectrum light is emitted from the p-n junction.
+
+  
+
+For optical communication systems requiring bit rates less than approximately 100-200 Mb/s together with multimode fiber-coupled optical power in tens of microwatts, semiconductor light-emitting diodes (LEDs) are usually the best light source choice. LEDs require less complex drive circuitry than laser diodes since no thermal or optical stabilization circuits are needed and they can be fabricated less expensively with higher yields.
+
+  
+
+To be useful in fiber transmission applications and LED must have a high radiance output, a fast emission response time and high quantum efficiency. To achieve a high radiance and a high quantum efficiency, the LED structure must provide a means of confining the charge carriers and the stimulated optical emission to the active region of the pn junction where radiative recombination takes place.
+
+The two basic LED configurations being used for fiber optics are surface emitters and edge emitters.
+
+<center>
+  
+![](images/Characteristics.png)  
+  
+
+**Figure 1: Light Emitting Diodes I-V Characteristics**
+
+![](images/figure.png)  
+  
+
+**Figure 2: Set up for Characterisation of LED**
+
+</center>
+>>>>>>> ed1751d49c27b6c065ea521a059d4c7f775e9dd5
 
 </div>
