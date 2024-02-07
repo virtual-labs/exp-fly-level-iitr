@@ -1,42 +1,52 @@
-## <b> Pre-test
+##  Pre Test 
 #### Please attempt the following questions
 
-Q1. The real image of an object formed by the objective must lie:<br>
 
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
+Q1. The regulated DC power supply also called _________?
+
+A Linear power supply<br>
+B Non-linear power supply<br>
+C Both a and b<br> 
+D None of the above
+<br>
+  
+  
+Q2. The rectification is a process of converting _________?
+
+A Alternating current into direct quantity<br> 
+B Alternating voltage into direct quantity<br> 
+C Alternating current or voltage into direct quantity<br> 
+D None of the above
+<br>
+  
+  
+Q3. The output of the rectification is _________?
+
+A Unidirectional<br> 
+B Bidirectional<br> 
+C Multidirectional<br> 
+D None of the above  <br>
+  
+  
+Q4. The efficiency of linear power supply is around _______?
+
+A 10-20%<br> 
+B 15-20%<br> 
+C 30-40%<br> 
+D 20-30% 
+<br>
+  
+  
+Q5. Which transformer is used in a regulated DC power supply?
+
+A Step up<br> 
+B Step down<br> 
+C Both a or b<br> 
+D None of the above  
+<br>
+  
+
+  
+  
 
 
-Q2. Fly levelling is another name of __________<br>
-
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
-
-
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
-
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
-
-
-
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
-
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
-
-
-Q5. Rise and fall method is used in:<br>
-
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
