@@ -1,1 +1,1 @@
-#### To find out elevations of various points on the ground using auto level.
+#### To design a regulated power supply and study the capacitor and output DC waveform in the CRO.
