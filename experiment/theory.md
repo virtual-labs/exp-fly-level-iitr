@@ -1,36 +1,22 @@
 ### Introduction
-<br>
-Fly levelling is a process of finding the level difference between two points and the levelling consists of taking back sights and fore sights only and not intermediate sights. Differential levelling is the determination of level difference between two points; check levelling is finding the level difference between points in a way of checking the accuracy of levelling works already done, and fly levelling is the procedure of accomplishing the objective of finding out the level difference between two points, which are far apart. It can also be used for transferring a benchmark.<br><br>
+<div style="text-align:justify">
 
-### Principle 
-<br>
-1) It makes use of a distance and a direction to locate the object.<br>
-2) The positions of the points are plotted on the paper by measuring the distances to the different objects using a tape and by plotting these distances to a scale along the rays drawn to the respective objects using alidale.<br>
-<br>
+The Reflex Klystron makes use of velocity modulation to transform a continuous electron beam into microwave power. Electron emitted from the cathode are accelerated and passed through the positive resonator towards negative reflector, which retards and, finally, reflects the electron; and the electron turns back through the resonator. Suppose an hf-field exists between the resonator, the electron travelling forward will be accelerated or retarded, as the voltage at the resonator changes in amplitude. The accelerated electrons leave the resonator at an increased velocity and the retarded electrons leave at the reduced velocity. The electrons leaving the resonator will need different time to return, due to change in velocities. As a result, returning electrons group together in bunches. As the electron bunches pass through resonator, they interact with voltage at resonator grids. If the bunches pass the grid at such time that the electrons are slowed down by the voltage, energy will be delivered to the resonator; and Klystron will oscillate. Fig. 1 shows the schematic of a typical Klystron tube. Fig. 2 shows the relationship between output power, frequency and reflector voltage. The frequency is primarily determined by the dimension of resonant cavity. Hence, by changing the volume of resonator, mechanical tuning range of Klystron is possible. Also, a small frequency change can be obtained by adjusting the reflector voltage. This is called Electronic Tuning Range. The same result can be obtained, if the modulation voltage is applied on the reflector voltage VR as shown in the Fig  
 
-### Equipments Used 
-<br>
-1) Auto level with tripod.<br>
-2) Graduated Staff.<br>
-3) Measuring Tape.<br>
-<br>
+<center>
 
-### Dos and Don'ts
-<br>
+![](images/reflex.png)
 
-#### Dos<br>
-1) Center and level the base of plane table accurately.<br>
-2) Crosshairs must be focused sharply.<br>
-3) Keep the Backsight and Foresight distances nearly equal to compensate for collimation error, if any.<br>
-4) Always take 3 or more observations of each point to take the average.<br>
-5) In Fly Levelling, use Rise and Fall method for computation of RL's.<br>
-6) Apply checks after computing RL's.<br>
-7) Find closing error and distribute it.<br><br>
+**Fig. 1 Schematic diagram of a typical Klystron**</center>
 
-#### Don'ts<br>
 
-1) Handle the Auto Level with utmost care. If dropped accidently, it may damage compensator and digital display.<br>
-2) If using aluminum staff, be away from electric poles, transformers and wires.<br>
-3) While shifting the instrument from one station to another station, always keep it in box for transport.<br>
-4) Protect the instrument from heavy rains.<br><br>
+#### Block Diagram
+    
+<center>
 
+![](images/block1.png)
+
+**Fig. 2 Bench setup for Characteristics of Reflex Klystron**</center>
+
+There are two configurations for a low-powered klystron. One is a low-power microwave oscillator (Reflex Klystron) and the second is a low-power microwave amplifier (Two Cavity Klystron or Multi Cavity Klystron).
+</div>
