@@ -1,42 +1,42 @@
-## <b> Pre-test
+##  Pre Test 
 #### Please attempt the following questions
+  
+  
+Q1. ______ is a single cavity klystron tube that operates as on oscillator by using a reflector electrode after the cavity.<br>
 
-Q1. The real image of an object formed by the objective must lie:<br>
-
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
-
-
-Q2. Fly levelling is another name of __________<br>
-
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
+A   Backward wave oscillator<br>
+<b>B   Reflex klystron</b><br>
+C   Traveling wave tube<br>
+D   Magnetrons<br><br>
 
 
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
+Q2. The klystron tube used in a klystron amplifier is a ______ type beam amplifier.<br>
 
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
-
-
-
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
-
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
+<b>A   Linear beam</b><br>
+B   Crossed field<br>
+C   Parallel field<br>
+D   None of the mentioned<br><br>
 
 
-Q5. Rise and fall method is used in:<br>
+Q3. A major disadvantage of klystron amplifier is:<br>
 
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
+A   Low power gain<br>
+<b>B   Low bandwidth</b><br>
+C   High source power<br>
+D   Design complexity<br><br>
+
+
+Q4. Reflex klystron is used in_____.<br>
+  
+<b>A Oscillator</b><br>
+B Mixer<br>
+C Frequency Multiplier<br>
+D None of the above<br><br>
+
+
+Q5. The main frequency determining element of a klystron is<br>
+
+A The repeller voltage<br>
+B The accelerating voltage<br>
+<b>C Its resonant cavity</b><br>
+D Its mode of operation<br><br>
