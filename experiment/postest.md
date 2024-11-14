@@ -1,47 +1,45 @@
 ## Post test
 #### Please attempt the following questions
 
+
+Q1. The mechanical splice attenuation loss is \_\_\_\_\_ dB or less<br>
+
+A   0.6   
+<b>B   0.1</b>  
+C   0.2  
+D   0.5  
 <br>
-Q1. A fixed point of reference of known elevation is known as:<br>
-<b>A   Bench Mark</b><br>
-B   Datum<br>
-C   Change point<br>
-D   Station point<br>
-<br><br>
 
-Q2. Which of the following methods of offsets involves less measurement
-on the ground?<br>
+Q2. What is the average loss in fiber splice?<br>
 
-<b>A   method of perpendicular offsets</b><br>
-B   method of oblique offsets<br>
-C    method of ties<br>
-D   all involve equal measurement on the ground<br>
-<br><br>
-
-Q3. The cross hairs in the surveying telescope are placed:<br>
-
-A    much closer to the objective lens than to the eye piece<br>
-B   midway between eye piece and objec-tive lens<br>
-<b>C   much closer to the eye-piece than to the objective lens</b><br>
-D   anywhere between eye-piece and objective lens<br><br>
-
-
-Q4.  The adjustment of horizontal cross hair is required particularly
-when the instrument is used for:<br>
-
-<b>A    leveling</b><br>
-B   prolonging a straight line<br>
-C    measurement of horizontal angles<br>
-D   all of the above<br><br>
-
-
-Q5. When the bubble of the level tube of a level remains central?<br>
-
-A   Axis of the telescope is horizontal<br>
-B   Less costly than a theodolite survey<br>
-<b>C   Line of sight is horizontal</b><br>
-D   Geometrical axis of the telescope is horizontal<br>
+<b>A   0.15dB</b>  
+B   0.012dB  
+C   0.13dB  
+D   0.14dB  
 <br>
+
+Q3. The dominant loss mechanisms in silica fiber are<br>
+  
+A   Absorption and radiation losses  
+B   Coupling and radiation losses    
+<b>C   Absorption and Rayleigh scattering</b>  
+D   Radiation and modal dispersion  
+<br>
+
+Q4. When light strikes a flat polished end of a fiber, the fiber loss produced can be reduced by<br>
+ 
+A   Splicing<br>
+<b>B   Antireflection coating</b>  
+C   Insulation jacket  
+D   All the above  <br><br>
+
+
+Q5. When light strikes a flat polished end of a fiber, it produces a loss of<br>
+
+A   9%<br>
+B   2%  
+C   5%  
+<b>D   4%</b>  <br>
 
 
 

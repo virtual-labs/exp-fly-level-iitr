@@ -1,16 +1,59 @@
-### Steps to perform experiment<br>
-Step-1) Start Button: This button on click will navigate to the menu page consists of three buttons i.e. OBJECTIVE OF EXPERIMENT Button, EQUIPMENT DETAILS Button and OBSERVATIONS & PLOTTING Button.<br><br>
-Step-2) Quit Button: It is used to exit the page.<br><br>
-Step-3) OBJECTIVE OF EXPERIMENT Button: This button provides objective of the experiment.<br><br>
-Step-4) EQUIPMENT DETAILS Button: This button provides equipment details, used in the experiment.<br><br>
-Step-5) OBSERVATION & PLOTTING Button: It contains two buttons ie.e. BROWSER & FLASH BASED SIMULATIONS Button.<br><br>
-Step-6) On click on BROWSER BASED button, it will navigate to the simluation page where you need to click on EQUIPMENT SETUP Button.<br><br>
-Step-7) After this, you need to setup autolevel instrument by placing it on the tripod.<br><br>
-Step-8) After this, click on LEVEL SETUP Button & setup blue bubble dot to the center.After this, click on Next Button.<br><br>
-Step-9) Click on th START Button, staff at point A will appear.<br><br>
-Step-10) Click on the staff at point A & after this, click on the SAVE Button to save readings at point A.After this click on NEXT Button to move the staff at point B.<br><br>
-Step-11) Repeat step 10 for point B,C & D.<br><br>
-Step-12) After click on VIEW READINGS Button to view saved readings.<br><br>
-Step-13) Alidade view of each point is also given at the left side of the pane.<br><br>
-Step-14) Click on FINISH Button to finish the simulation.<br><br>
- 
+## Procedure<br>
+
+<div style="text-align:justify;">
+
+1.  Make the connections as mentioned below.
+
+    1.  Connect the Function Generator 1 KHz sine wave output to emitter input.
+    2.  Connect 1 m optic fiber between emitter output and detector input.
+    3.  Connect Detector output to amplifier input.
+
+2.  Switch ‘On’ the Power Supply of TechBook and Oscilloscope.
+3.  Set the Oscilloscope channel 1 to 0.5 V/ Div and adjust 4-6 div amplitude by using X 1 probe with the help of variable potentiometer in Function Generator block at input of emitter.
+4.  Observe the output signal from detector on Oscilloscope.
+5.  Adjust the amplitude of the received signal as that of transmitted one with the help of gain adjusts pot in AC amplifier block. Note this amplitude and name it V1.
+6.  Now replace the previous fiber optic cable with 5 m cable without disturbing any previous setting.
+7.  Measure the amplitude at the receiver side again at output of amplifier. Note this value and name it V2.   
+Calculate the propagation (attenuation) loss with the help of following formula:  
+
+<center>
+<math style="font-size:28px">
+        <mi>&alpha;</mi>
+            <mo>=</mo>
+            <mo>-</mo>
+                <mfrac bevelled="true" style="font-size:28px">    
+                    <mfrac>
+                        <mrow>
+                            <msub>
+                                <mi>log</mi>
+                                <mn>10</mn>
+                            </msub>
+                    <mfrac>                                                               
+                        <mi>V1</mi>
+                        <mi>V2</mi>    
+                    </mfrac>
+                        </mrow>
+                </mfrac>
+    <mfrac>
+                                                                    <mi>L1</mi>
+                                                                    <mo>+</mo>
+                                                                    <mi>L2</mi>
+                                                            </mfrac>
+                                                            </mfrac>   
+                                                </math>
+</center>
+
+Where,  
+α = loss in nepers / meter  
+1 nepers = 8.686 dB  
+L1 = Length of shorter cable (1 m)  
+L2 = Length of longer cable (5 m)  
+
+<center>
+
+![](images/b.png)
+
+**Figure 1: Set up for Measurement of Losses in Plastic Fiber**
+
+</center>
+</div>

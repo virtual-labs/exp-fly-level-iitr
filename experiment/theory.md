@@ -1,36 +1,14 @@
 ### Introduction
-<br>
-Fly levelling is a process of finding the level difference between two points and the levelling consists of taking back sights and fore sights only and not intermediate sights. Differential levelling is the determination of level difference between two points; check levelling is finding the level difference between points in a way of checking the accuracy of levelling works already done, and fly levelling is the procedure of accomplishing the objective of finding out the level difference between two points, which are far apart. It can also be used for transferring a benchmark.<br><br>
+<div style="text-align:justify">
 
-### Principle 
-<br>
-1) It makes use of a distance and a direction to locate the object.<br>
-2) The positions of the points are plotted on the paper by measuring the distances to the different objects using a tape and by plotting these distances to a scale along the rays drawn to the respective objects using alidale.<br>
-<br>
+Attenuation is the loss of optical power as a result of absorption, scattering, bending, and other loss mechanisms as the light travels through the fiber. The total attenuation is a function of the wavelength λ of the light. The total attenuation A between two arbitrary points X and Y on the fiber is A(dB) = 10 log10 (Px/Py). Px is the power output at point X. Py is the power output at point Y. Point X is assumed to be closer to the optical source than point Y. The attenuation coefficient or attenuation rate α is given by α(dB/km) = A/L. Here L is the distance between points X and Y.
 
-### Equipments Used 
-<br>
-1) Auto level with tripod.<br>
-2) Graduated Staff.<br>
-3) Measuring Tape.<br>
-<br>
 
-### Dos and Don'ts
-<br>
+<center>
 
-#### Dos<br>
-1) Center and level the base of plane table accurately.<br>
-2) Crosshairs must be focused sharply.<br>
-3) Keep the Backsight and Foresight distances nearly equal to compensate for collimation error, if any.<br>
-4) Always take 3 or more observations of each point to take the average.<br>
-5) In Fly Levelling, use Rise and Fall method for computation of RL's.<br>
-6) Apply checks after computing RL's.<br>
-7) Find closing error and distribute it.<br><br>
+![](images/b.png)
 
-#### Don'ts<br>
+**Figure 1: Set up for Measurement of Losses in Plastic Fiber**
 
-1) Handle the Auto Level with utmost care. If dropped accidently, it may damage compensator and digital display.<br>
-2) If using aluminum staff, be away from electric poles, transformers and wires.<br>
-3) While shifting the instrument from one station to another station, always keep it in box for transport.<br>
-4) Protect the instrument from heavy rains.<br><br>
-
+</center>
+</div>

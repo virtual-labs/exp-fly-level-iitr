@@ -1,42 +1,43 @@
-## <b> Pre-test
+##  Pre Test 
 #### Please attempt the following questions
+  
+  
+Q1. Stepped index operation is not a possible cause of optical fiber loss. State True/False.<br>
 
-Q1. The real image of an object formed by the objective must lie:<br>
-
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
-
-
-Q2. Fly levelling is another name of __________<br>
-
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
+<b>A   True</b>  
+B   False    
+<br>
 
 
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
+Q2. SONET stands for<br>
 
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
-
-
-
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
-
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
+A   System Optical Network  
+<b>B   Synchronous Optical Network</b>  
+C   Silica Optic Network  
+D   System Optical Fiber Net  
+<br>
 
 
-Q5. Rise and fall method is used in:<br>
+Q3. Which of the following is a disadvantage for plastic fiber optics?<br>
 
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
+A   No loss  
+<b>B   Higher losses</b>  
+C   Less loss  
+D   None of the above  
+<br>
+
+
+Q4. Under normal condition, a single fiber should not be used for a two-way communication mainly because of<br>
+  
+A   Loss  
+B   Fading  
+C   Attenuation  
+<b>D   Noise</b>  
+<br>
+
+
+Q5. Splicing fibers means Fusion. State True/False?<br>
+
+A   True    
+<b>B   False</b>  
+
