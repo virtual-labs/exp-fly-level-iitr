@@ -2,9 +2,9 @@
 
    "details": [
        {
-			"Experiment": "Carry out fly leveling using auto level",     
-			"Lab": "Surveying",               
-			"Discipline": "Civil Engineering",				 
+			"Experiment": "Characteristics of Reflex Klystron.",     
+			"Lab": "Microwave Engineering",               
+			"Discipline": "",				 
 			"Technology": "HTML, JavaScript, CSS"         
        }
    ],
@@ -17,35 +17,30 @@
        }
    ],
 
-   "contributer": [
+   "contributor": [
+       
        {       
-			"Contributer": "Jasbir Singh",             
+			"Contributor": "Rajeev Kumar",              
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
 			"InstituteAcronym": "IITR"         
        },
 
        {       
-			"Contributer": "Rajeev Kumar",              
+			"Contributor": "Nipun Jain",             
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
 			"InstituteAcronym": "IITR"         
        },
 
        {       
-			"Contributer": "Priyanshi Agarwal",             
+			"Contributor": "Piyush Rawat",             
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
 			"InstituteAcronym": "IITR"         
        },
 
        {       
-			"Contributer": "Nipun Jain",             
+      "Contributor": "Pragya Daksh",             
       "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
-			"InstituteAcronym": "IITR"         
-       },
-
-       {       
-			"Contributer": "Piyush Rawat",             
-      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
-			"InstituteAcronym": "IITR"         
+      "InstituteAcronym": "IITR"         
        }
    ]
 
