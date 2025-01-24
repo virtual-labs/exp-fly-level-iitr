@@ -1,1 +1,2 @@
-#### To find out elevations of various points on the ground using auto level.
+
+#### To study the Basic Properties of E-plane Tee, H-plane Tee and Magic Tee.

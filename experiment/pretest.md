@@ -1,42 +1,47 @@
-## <b> Pre-test
+##  Pre Test 
 #### Please attempt the following questions
+  
+  
+Q1. The dominant mode of a waveguide depends on:<br>
 
-Q1. The real image of an object formed by the objective must lie:<br>
-
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
-
-
-Q2. Fly levelling is another name of __________<br>
-
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
+<b>A   the shape of the waveguide</b>  
+B   the power level of the signal  
+C   the point of signal injection  
+D   none of the above  
+<br>
 
 
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
+Q2. A TEE connector used with waveguides is:<br>
 
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
-
-
-
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
-
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
+A   an H-plane TEE  
+B   an E-plane TEE  
+C   a “magic” TEE  
+<b>D   all of the above</b>  
+<br>
 
 
-Q5. Rise and fall method is used in:<br>
+Q3. What type of waveguide is widely used?<br>
 
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
+A circular  
+B ridged  
+C flexible  
+<b>D rectangular</b> 
+<br>
+
+
+Q4. Waveguides act as__________.<br>
+  
+A low-pass filter  
+B band-pass filter  
+<b>C high-pass filter</b>  
+D band-stop filter  
+<br>
+
+
+Q5. In a series-tee, the axis of the side-arm<br>
+
+A   is parallel to the H-field planes of the main waveguide  
+<b>B   is parallel to the E-field planes of the main waveguide</b>  
+C   is normal to the E-field of the main waveguide  
+D   none of these  
+<br>
