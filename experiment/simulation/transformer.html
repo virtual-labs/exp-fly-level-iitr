@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRICAL DEVICES</title>
+    <link href="http://fonts.cdnfonts.com/css/zacbel-x" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/foco-trial" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@firestitch/jsplumb@2.12.0/dist/js/jsplumb.min.js"></script>
+    <link href="http://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        footer {
+          text-align: center;
+          padding: 3px;
+          background-color: #606471;
+          color: white;
+        }
+   
+        .container {
+
+padding-bottom: 20px;
+
+}
+
+        </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="instructions" id="instTab">
+            <div class="insHeading">
+                <p>Instructions</p>
+
+                <ul class="steps" style="list-style-type: none;">
+                    <li><p><b>Step 1:</b></p> <p style="margin-top: -15px;">The aim of this experiment is to get familiarized with the electrical devices.</p></li>
+                    <li><p><b>Step 2:</b></p> <p style="margin-top: -15px;">Click on ‘Next’ Button to view the next electrical device.</li>
+                    <li><p><b>Step 3:</b></p> <p style="margin-top: -15px;">Click on ‘Previous’ button to go back to previous electrical device.</li>
+                    <li><p><b>Step 4:</b></p> <p style="margin-top: -15px;">Repeat Step 2 and 3 until you reach the end of the experiment.</li>
+                </ul>
+            </div>
+            <div class="MyLabel">
+                <p>
+                    Instructions
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+
+
+            <div class="heading">
+
+                <p style="margin-top: 10px; text-align: center;"><b> TO GET FAMILIARIZED WITH THE ELECTRICAL DEVICES.</b></p>
+
+            </div>
+
+            <div class="clear"></div>
+
+
+            <div class="control-panel">
+
+                <div class="control-panel-buttons">
+                    <form action="wattmeter.html">
+                        <input type="submit" value="PREVIOUS" id="previous">
+                    </form>
+                    <p><b>TRANSFORMER </b></p>
+
+                    <form action="electric-motor.html" id="next">
+                        <input type="submit" value="NEXT" />
+                    </form>
+
+                    <!--THIS IS TO BE KEPT IN A FLEX BOX-->
+                </div>
+
+
+
+            </div>
+            <!--CONTROL PANEL ENDS HERE-->
+            <div class="discription">
+                <p>
+                <div align="center">
+                    <p><strong style="font-size: 20px;">
+                            <p><img src="images/transformer.png" style="width:3.71944in;height:2.72361in" />
+                                <!-- <img
+                            src="media/image8.png" style="width:2.05in;height:1.5375in" /></p> -->
+                            <p>Figure 1: Transformer</p>
+                        </strong></p>
+                </div>
+                <p style="font-size: 18px;">
+                    <ul>
+               <li>  <p>A transformer is a static electrical machine which transfer AC
+                    electrical power from one circuit to other circuit at a constant
+                    frequency, but the voltage level can be altered that means voltage can
+                    be increased or decreased according requirement. It is work on the
+                    principle of <strong>“Faraday’s law of Electromagnetic Induction”</strong> which states
+                    that <strong>“The induced e.m.f. is directly proportional to the rate of change of
+                        flux.”</strong></p></li>
+                <li> <p>A single phase voltage transformer basically consists of two
+                    electrical coil of wire, one called primary winding and another called
+                    secondary winding.The primary side of the transformer is typically the one that receives power,
+                     while the secondary side delivers power.Depending on the number of turns in the primary and secondary windings, 
+                    the voltage is either stepped up or stepped down.</p></li>
+               <li> <p>For a transformer there is no direct electrical connection between
+                    the two coil windings, thereby giving it the name also of an Isolation
+                    Transformer. Generally, the primary winding if a transformer is
+                    connected to the input voltage supply and converts or transforms the
+                    electrical power into a magnetic field. While the job of the secondary
+                    winding is to convert this alternating magnetic field into electrical
+                    power producing the required output voltage.</p></li> 
+                <p>There are various type of transformer:</p>
+
+          
+                <ol type="1">
+                    <li>
+                        <p><strong>Position of the winding concerning the
+                                core</strong></p>
+                    </li>
+                </ol>
+                <ol type="1">
+                    <li>
+                        <p>Core type transformer</p>
+                    </li>
+                    <li>
+                        <p>Shell type transformer</p>
+                    </li>
+                </ol>
+                <ol start="2" type="1">
+                    <li>
+                        <p><strong>According to the transformer ratio or number of turns in
+                                the windings</strong></p>
+                    </li>
+                </ol>
+                <ol type="1">
+                    <li>
+                        <p>Step up transformer</p>
+                    </li>
+                    <li>
+                        <p>Step down transformor</p>
+                    </li>
+                </ol>
+                <ol start="3" type="1">
+                    <li>
+                        <p><strong>Type of services</strong></p>
+                    </li>
+                </ol>
+                <ol type="1">
+                    <li>
+                        <p>Power transformer</p>
+                    </li>
+                    <li>
+                        <p>Distribution transformer</p>
+                    </li>
+                    <li>
+                        <p>Instrument transformer</p>
+                    </li>
+                </ol>
+                <ol type="i">
+                    <li>
+                        <p>Current transformer</p>
+                    </li>
+                    <li>
+                        <p>Potential transformer</p>
+                    </li>
+                </ol>
+                <ol start="4" type="1">
+                    <li>
+                        <p><strong>On the basis of the supply</strong></p>
+                    </li>
+                </ol>
+                <ol type="1">
+                    <li>
+                        <p>Single phase transformer</p>
+                    </li>
+                    <li>
+                        <p>Three phase transformer</p>
+                    </li>
+                </ol>
+                <p><strong style="font-size: 20px;">Instrument transformer:</strong></p>
+                <p><li>Instrument transformer are used in AC system for measurement of
+                    electrical quantities i.e. voltage, current power, energy, power factor,
+                    frequency.</p></li>
+                <li><p>Instrument transformers are also used with protective relays for
+                    protection of power system.</p></li>
+                <li><p>Basic function of instrument transformer is to step down the AC
+                    system voltage and current. The voltage and current level of power
+                    system is very high. It is very difficult and costly to design the
+                    measuring instruments for measurement of such high level voltage and
+                    current. Generally measuring instruments are designed for 1A/5A and
+                    110V.</p></li>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                        src="images/transformer2.png"
+                        alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                        src="images/transformer3.png" alt=""></p>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure
+                    2: Current
+                    Transformer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure
+                    3: Potential Transformer</p>
+                </p>
+
+            </ul>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Copyright@2022 Virtual Labs, IIT Roorkee</p>
+           <!-- <p><a href="mailto:hege@example.com">hege@example.com</a></p>  --> 
+          </footer>
+
+</body>
+
+<script src="js/working.js"></script>
+
+</html>

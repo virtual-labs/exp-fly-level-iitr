@@ -1,13 +1,188 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRICAL DEVICES</title>
+    <link href="http://fonts.cdnfonts.com/css/zacbel-x" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/foco-trial" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@firestitch/jsplumb@2.12.0/dist/js/jsplumb.min.js"></script>
+    <link href="http://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        footer { 
+          text-align: center;
+          padding: 3px;
+          background-color: #606471;
+          color: white;
+        }
+
+        .container {
+
+            padding-bottom: 20px;
+        }
+
+        </style>
+
 </head>
+
 <body>
 
-    <div id="main">
-    <a href="2.html"><button id="start">START</button></a><br>
-  <button id="quit" onclick="location.close();">QUIT</button></a>
-    </div>
-<script src="js/main.js"></script>
+    <div class="container">
+        <div class="instructions" id="instTab">
+            <div class="insHeading">
+                <p>Instructions</p>
+                <ul class="steps" style="list-style-type: none;">
+
+                    <li><p><b>Step 1:</b></p> <p style="margin-top: -15px;">The aim of this experiment is to get familiarized with the electrical devices.</p></li>
+                    <li><p><b>Step 2:</b></p> <p style="margin-top: -15px;">Click on ‘Next’ Button to view the next electrical device.</li>
+                    <li><p><b>Step 3:</b></p> <p style="margin-top: -15px;">Click on ‘Previous’ button to go back to previous electrical device.</li>
+                    <li><p><b>Step 4:</b></p> <p style="margin-top: -15px;">Repeat Step 2 and 3 until you reach the end of the experiment.</li>
+
+                </ul>
+            </div>
+
+            <div class="MyLabel">
+
+                <p>
+                    Instructions
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+
+        <div class="heading">
+
+            <p style="margin-top: 10px; text-align: center;"><b> TO GET FAMILIARIZED WITH THE ELECTRICAL DEVICES.</b></p>
+
+        </div>
+
+        <div class="control-panel">
+
+            <div class="control-panel-buttons">
+
+                <form action="voltmeter.html">
+                    <input type="submit" value="PREVIOUS" id="previous" disabled="true">
+                </form>
+
+                <p><b>AMMETER</b></p>
+
+                <form action="voltmeter.html" id="next">
+                    <input type="submit" value="NEXT" />
+                </form>
+
+                <!--THIS IS TO BE KEPT IN A FLEX BOX-->
+            </div>
+
+        </div>
+
+       
+        <!-- Control panel ends here -->
+
+        <div class="discription">
+
+            <p> 
+
+            <div align="center">
+
+                    <p> <img src="images/A.png" style="width:250px;height:250px"></p>
+
+                    <p> <strong style="font-size:20px;"> Figure 1: Analog Ammeter
+
+                </strong></p>
+
+
+            </div><br>
+
+            <p style="text-align: center;">
+
+                <ul> 
+            
+              <li><p>An ammeter is measuring instrument used to measure the electric
+                    current in a circuit. Since, electric current measured in amperes(A),
+                    hence the name is ammeter.</p></li>
+               <li><p>Instruments used to measure small currents, in the milliampere or
+                    microampere, are designated as milliammeters or microammeters.</p></li>
+               <li><p>Early ammeters were laboratory which relied on the earth’s magnetic
+                    field for operation.</p></li>
+               <li><p>
+                    An ammeter’s current sensitivity is determined by the amount of electric current required by the
+                    meters coil to produce the required FSD(Full scale deflection) movement of the pointer. The amount
+                    by which the coil moves, called “deflection”, ( Φ ) is proportional to the strength of current
+                    flowing through the coil needed to produce the magnetic field required to deflect the needle by an
+                    amount, given in degrees (or radians) per ampere, °/A or rad/A.
+                </p></li>
+             <li><p>
+                    Therefore, the smaller the amount of current required to produce the required deflection, the
+                    greater the sensitivity of the meter. Then the pointer of an ammeter moves in response to a current,
+                    so if the meter movement requires only 100uA for full scale deflection, it will have a greater
+                    sensitivity than a meter movement which requires 1mA for its FSD.
+                </p></li> 
+               <li>  <p>It measure DC or AC both electric current. It can measure wide range
+                    of value. To measure the current value ammeter in connected in the
+                    series of circuit. Ammeter has very low resistance. Digital ammeter
+                    designs use a shunt resistor to produce a calibrated voltage
+                    proportional to the current flowing.</p></li>
+                <p>There are various type of ammeter.</p>
+                <ol type="1">
+                    <li>
+                        <p>Moving-coil ammeters</p>
+                    </li>
+                    <li>
+                        <p>Electrodynamic ammeters</p>
+                    </li>
+                    <li>
+                        <p>Moving iron ammeter</p>
+                    </li>
+                    <li>
+                        <p>Digital ammeter</p>
+                    </li>
+                    <li>
+                        <p>Integrating ammeters</p>
+                    </li>
+                </ol>
+                <br>
+
+                <b>Analog ammeters: </b> <br>
+                The pointer inside the ammeter moves within a span of 90°. The tip of the pointer corresponds to a
+                numeric value. This is the amps of current passing through the circuit. DC ammeters have linear scales
+                with equal divisions. AC ammeters have non-linear scales with unequal divisions.
+                <br><br>
+
+                <b>Digital ammeters:</b> <br>
+                Digital ammeters flow of current amperes and display current levels on a digital display. Usually
+                digital ammeters are designed with a shunt resistor to produce a calibrated voltage proportional to the
+                current flowing through. This voltage is then measured by digital voltmeter , by using analog
+                -to-digital voltmeter the digital display hence calibrated to display current through the shunt.
+                <br><br>
+                
+            </div>
+
+        </div>
+
+
+
+   
+
+
+<!-- Footer code-->
+
+    <footer>
+
+<p> Copyright@2022 Virtual Labs, IIT Roorkee </p>
+       <!-- <p><a href="mailto:hege@example.com">hege@example.com</a></p>  --> 
+</footer>
+
 </body>
+
+<script src="js/working.js"></script>
+
 </html>

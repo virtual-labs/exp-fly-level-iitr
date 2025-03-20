@@ -1,1 +1,1 @@
-## Carry out fly leveling using auto level.
+## Familiarization with the Electrical Equipments.

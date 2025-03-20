@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRICAL DEVICES</title>
+    <link href="http://fonts.cdnfonts.com/css/zacbel-x" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/foco-trial" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@firestitch/jsplumb@2.12.0/dist/js/jsplumb.min.js"></script>
+    <link href="http://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        footer {
+          text-align: center;
+          padding: 3px;
+          background-color: #606471;
+          color: white;
+        }
+
+        .container {
+
+padding-bottom: 20px;
+
+}
+
+        </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="instructions" id="instTab">
+            <div class="insHeading">
+                <p>Instructions</p>
+
+                <ul class="steps" style="list-style-type: none;">
+                    <li><p><b>Step 1:</b></p> <p style="margin-top: -15px;">The aim of this experiment is to get familiarized with the electrical devices.</p></li>
+                    <li><p><b>Step 2:</b></p> <p style="margin-top: -15px;">Click on ‘Next’ Button to view the next electrical device.</li>
+                    <li><p><b>Step 3:</b></p> <p style="margin-top: -15px;">Click on ‘Previous’ button to go back to previous electrical device.</li>
+                    <li><p><b>Step 4:</b></p> <p style="margin-top: -15px;">Repeat Step 2 and 3 until you reach the end of the experiment.</li>
+                </ul>
+            </div>
+            <div class="MyLabel">
+                <p>
+                    Instructions
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+
+
+            <div class="heading">
+
+                <p style="margin-top: 10px; text-align: center;"><b>TO GET FAMILIARIZED WITH THE ELECTRICAL DEVICES.</b></p>
+
+            </div>
+
+            <div class="clear"></div>
+
+
+            <div class="control-panel">
+
+                <div class="control-panel-buttons">
+
+                    <form action="voltmeter.html">
+                        <input type="submit" value="PREVIOUS" id="previous">
+                    </form>
+                    <p><b>WATTMETER</b></p>
+
+                    <form action="transformer.html" id="next">
+                        <input type="submit" value="NEXT" />
+                    </form>
+
+                    <!--THIS IS TO BE KEPT IN A FLEX BOX-->
+                </div>
+
+
+            </div>
+            <!--CONTROL PANEL ENDS HERE-->
+            <div class="discription">
+                <p>
+                <div align="center">
+                    <p><strong style="font-size: 20px;">
+                            <p><img src="images/w.png" style="width:250px;height: 250px;"/>
+                                <!-- <imgsrc="media/image6.jpeg" style="width:1.93889in;height:3.04514in" /></p> -->
+                            <p>Figure 1: Analog wattmeter</p>
+                        </strong></p>
+                </div><br>
+                <ul> 
+                <p>
+              <!--   style="font-size: 18px;">--> <li> <p> A wattmeter is a device that measure power, or the amount of energy
+                    being used, in a given space or system. In short it is used to measure
+                    active electric power. </p></li>
+                <p> There are two coils in wattmeter. <br>
+                    1. Current coil <br>
+                    2. Potential coil
+                </p>
+               <li>  <p>Current coil is fixed coil and potential coil is movable coil</p></li>
+               <li>  <p>When the wattmeter is connected in the circuit to measure the power, the current coil carries load
+                    current and potential coil carries current proportional to the load voltage, due to currents in the
+                    coils, mechanical force exist between them. The result is that movable coil moves the pointer over
+                    the the scale. The pointer comes to reset at a position where deflecting torque </p></li>
+              <li>   <p>Deflecting torque T<sub>D</sub> is directly proportional to load power</p></li>
+               <li>  <p> It is a helpful device for comparing the power use
+                    of different systems, such as lamps and computers, and for measuring the
+                    power of systems that operate at power levels too low to be measured by
+                    other instruments. Wattmeter are used in the field of energy efficiency
+                    to measure the energy efficiency of building, appliances and other
+                    systems.</p></li>
+              <li>   <p>The working mechanism of a wattmeter is based on the principle that
+                    the amount of electricity consumed by an appliance is proportional to
+                    the power consumed by the appliance. Thus, an appliance that consumes
+                    more electricity will use more energy than a similar-sized appliance.
+                    The formula used for the calculation of power with a wattmeter is</p></li>
+                
+                <p><strong> Analog wattmeter:</strong></p>
+               <li><p>
+
+                <p>Analog Wattmeter: P=VIcosӨ</p>
+
+                    Where, P= Power in Watts, V= Voltage in Volts, I= Current in Amperes, CosӨ= Power factor.<br><br>
+                    <li> The traditional analog wattmeter is an electro dynamic instrument. The device consists of a pair of
+                    fixed coils, known as current coil and a movable coil known as the potential coil.
+                </p></li>
+              <li> <p>
+                    The current coil are connected in series with the circuit, while the potential coil is connected in
+                    parallel. Also, on analog wattmeter, the potential coil carries a needle that moves over a scale to
+                    indicate the measurement. A current flowing through the current coil generates an electromagnetic
+                    field around the coil.
+                </p></li>
+                <p><strong>Digital wattmeter: </strong></p>
+                <p>
+                   <li> A modern digital wattmeter samples the voltage and current thousands of times a second. For each
+                    sample, the voltage is multiplied by the current at the same instant; the average over at least one
+                    cycle is the real power.
+                </p></li>
+                <p>
+                    <li>The real power divided by the apparent volt-amperes (VA) is the power factor. A computer circuit
+                    uses the sampled values to calculate RMS voltage, RMS current, VA, power (watts), power factor, and
+                    kilowatt-hours. The readings may be displayed on the device, retained to provide a log and calculate
+                    averages, or transmitted to other equipment for further use.
+                </p></li>
+                <p>There are various type of wattmeter.</p>
+                <ol type="1">
+                    <li>
+                        <p>Electrodynamometer</p>
+                    </li>
+                    <li>
+                        <p>Induction wattmeter</p>
+                    </li>
+                </ol>
+                </p>
+
+                </p>
+            </ul>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Copyright@2022 Virtual Labs, IIT Roorkee</p>
+           <!-- <p><a href="mailto:hege@example.com">hege@example.com</a></p>  --> 
+          </footer>
+
+</body>
+
+<script src="js/working.js"></script>
+
+</html>
