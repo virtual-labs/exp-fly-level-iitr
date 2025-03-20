@@ -1,42 +1,74 @@
-## <b> Pre-test
+## Pre test
 #### Please attempt the following questions
 
-Q1. The real image of an object formed by the objective must lie:<br>
+### Note- Reference books are available in the reference section.
 
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
+<b>Q1. A voltmeter must have very high internal resistance so that-</b><br>
 
+A   Accuracy is high<br>
+B   Resolution is high<br>
+C   Draw a small amount of current<br>
+D   Creates high loading effect of the current<br><br>
 
-Q2. Fly levelling is another name of __________<br>
+<b>Q2. Sensitive low voltage electronic components are protected from-</b><br>
 
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
+A   Static charge  <br>
+B   Induction circuit<br>
+C   Lightening<br>
+D   All of the above<br><br>
 
+<b>Q3. An ammeter is connected in _________with the circuit-</b><br>
 
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
+A Parallel<br>
+B   Series<br>
+C   Parallel and series<br>
+D   None of the above<br><br>
 
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
+<b>Q4. A voltmeter is connected in ______with the circuit-</b><br>
 
+A    Parallel<br>
+B   Series<br>
+C   Parallel and series<br>
+D   None of the above<br><br>
 
+<b>Q5. Internal resistance of a voltmeter?</b><br>
 
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
+A  High<br>
+B  Medium<br>
+C   Low<br>
+D   Infinity<br><br>
 
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
+<b>Q6. The instrument _____ is used for detecting electric current?</b>
 
+A   Galvanometer<br>
+B   Tube tester <br>
+C   Altimeter <br>
+D   Fathometer  <br><br>
 
-Q5. Rise and fall method is used in:<br>
+<b>Q7. In a low power factor wattmeter compensating coil is connected-</b><br>
 
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
+A   In series with current coil<br>
+B  In parallel with current coil<br>
+C  In series with pressure coil<br>
+D  In parallel with pressure coil<br><br>
+
+<b>Q8.  Identify the instrument that is used to measure the iron losses in a single phase transformer-</b><br>
+
+A  Low power factor wattmeter<br>
+B  High power factor wattmeter<br>
+C  Low resistance ammeter<br>
+D  Dynamometer type wattmeter<br><br>
+
+<b>Q9. How many coil are there in wattmeter?</b><br>
+
+A   2<br>
+B  3<br>
+C   4<br>
+D  1<br><br>
+
+<b>Q10. Wattmeter is measure of?</b><br>
+
+A  Active power<br>
+B   Reactive power<br>
+C  Apparent power<br>
+D   All of the above<br><br>
