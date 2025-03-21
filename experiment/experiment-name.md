@@ -1,1 +1,1 @@
-## Carry out fly leveling using auto level.
+## To Determine the Resonance Frequency in a series RLC circuit.

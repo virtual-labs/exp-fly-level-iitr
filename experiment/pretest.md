@@ -1,42 +1,66 @@
-## <b> Pre-test
+## Pre test
 #### Please attempt the following questions
 
-Q1. The real image of an object formed by the objective must lie:<br>
+### Note- Reference books are available in the reference section.
 
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
+<b>Q1. A series resonant circuit is commonly called a tank circuit.</b><br>
 
+A  True<br>
+B  False<br>
 
-Q2. Fly levelling is another name of __________<br>
+<b>Q2. In a series RLC circuit that is operating above the resonant frequency, the current.</b><br>
 
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
+A   Lags the applied voltage<br>
+B   Leads the applied voltage<br>
+C   Is in phase with the applied voltage<br>
+D   Is zero<br>
 
+<b>Q3. The impedance at the resonant frequency of a series RLC circuit with L = 20 mH, C = 0.02 μF, and RW = 90 Ω is?</b> <br>
 
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
+A  0 Ω <br>
+B  90 Ω<br>
+C  20 Ω<br>
+D  40 Ω<br>
 
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
+<b>Q4. A 24 Ω resistor, an inductor with a reactance of 120 Ω, and a capacitor with a reactance of 120 Ω are in series across a 60 V source. The circuit is at resonance. The voltage across the inductor is?</b><br>
 
+A   60 V<br>
+B   660 V<br>
+C   30 V<br>
+D   300 V<br>
 
+<b>Q5. The reactive voltages, $V_L$ and $V_C$, cancel at resonance.</b><br>
 
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
+A   True <br>
+B   False<br>
 
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
+<b>Q6. In a series RLC circuit, the current is minimum at resonance.</b><br>
 
+A   True <br>
+B   False <br>
 
-Q5. Rise and fall method is used in:<br>
+<b>Q7. A certain series resonant circuit has a bandwidth of 2 kHz. If the existing coil is replaced with one having a higher value of Q, the bandwidth will.</b><br>
 
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
+A   Increase <br>
+B   Remain the same <br>
+C   Decrease<br>
+D   Be less selective<br>
+
+<b>Q8. If the value of C in a series RLC circuit is decreased, the resonant frequency increases.</b><br>
+
+A   True <br>
+B   False<br>
+
+<b>Q9. The power factor of a series RLC circuit at resonance is?</b><br>
+
+A  0.7 <br>
+B  0.5 <br>
+C  0 <br>
+D  1 <br>
+
+<b>Q10. The Quality factor ‘Q’ is equal to _______, and it is an indicator of the sharpness of the resonance in a RLC circuit.</b><br>
+
+A   $\omega$<sub>O</sub>R/L <br>
+B   $\omega$<sub>O</sub>L/R<br>
+C   LR/$\omega$<sub>O</sub> <br>
+D   LR $\omega$<sub>O</sub><br>

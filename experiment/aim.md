@@ -1,1 +1,1 @@
-#### To find out elevations of various points on the ground using auto level.
+To Determine the Resonance Frequency in a series RLC circuit.

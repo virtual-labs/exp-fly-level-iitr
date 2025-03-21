@@ -1,16 +1,25 @@
-### Steps to perform experiment<br>
-Step-1) Start Button: This button on click will navigate to the menu page consists of three buttons i.e. OBJECTIVE OF EXPERIMENT Button, EQUIPMENT DETAILS Button and OBSERVATIONS & PLOTTING Button.<br><br>
-Step-2) Quit Button: It is used to exit the page.<br><br>
-Step-3) OBJECTIVE OF EXPERIMENT Button: This button provides objective of the experiment.<br><br>
-Step-4) EQUIPMENT DETAILS Button: This button provides equipment details, used in the experiment.<br><br>
-Step-5) OBSERVATION & PLOTTING Button: It contains two buttons ie.e. BROWSER & FLASH BASED SIMULATIONS Button.<br><br>
-Step-6) On click on BROWSER BASED button, it will navigate to the simluation page where you need to click on EQUIPMENT SETUP Button.<br><br>
-Step-7) After this, you need to setup autolevel instrument by placing it on the tripod.<br><br>
-Step-8) After this, click on LEVEL SETUP Button & setup blue bubble dot to the center.After this, click on Next Button.<br><br>
-Step-9) Click on th START Button, staff at point A will appear.<br><br>
-Step-10) Click on the staff at point A & after this, click on the SAVE Button to save readings at point A.After this click on NEXT Button to move the staff at point B.<br><br>
-Step-11) Repeat step 10 for point B,C & D.<br><br>
-Step-12) After click on VIEW READINGS Button to view saved readings.<br><br>
-Step-13) Alidade view of each point is also given at the left side of the pane.<br><br>
-Step-14) Click on FINISH Button to finish the simulation.<br><br>
- 
+### Steps to perform experiment
+<br>
+
+ <b> Step 1:</b>  Make connections as per the instructions given below:  <br/>
+
+(a) (1-13), (2-14) <br/>
+(b) (3-15), (4-16)<br/>
+(c) (5-15), (6-7), (8-11)<br/>
+(d) (9-12), (10-16)<br/>
+
+<b>Note: Click on the label to delete the connection for the corresponding node.</b><br/>
+
+<img src="simulation/images/Resonance_Frequency.png" height="300" width="550"/> <br/>
+
+<b>Step 2:</b> (a) Now, Check the connections by clicking on <b> ‘CHECK’</b> button.<br/>
+(b) If the connections are <b>‘Invalid connections’</b> click on corresponding node to remove the connection.<br/>
+(c) And if the connections are <b>‘Right Connections’</b> then follow the below steps.<br/><br/>
+<b>Step 3:</b> Turn on the MCB.<br/>
+<b>Step 4:</b> Click on Function Generator <b>‘Power’</b> button.<br/>
+<b>Step 5:</b> Now, Vary the frequency by moving the slider.<br/>
+<b>Step 6:</b> Now, Click on <b> ‘ADD’</b> button to add the readings in the observation table.<br/>
+<b>Step 7:</b>Repeat Step 5 to Step 6 until we get the 8th reading in the observation table.<br/>
+<b>Step 8:</b> In Calculation section, We have to manually calculate the <b>Resonance frequency </b> and <b> Quality factor</b> and verify it with the help of <b>Verify</b> button.<br/>
+<b>Step 9:</b> Click on <b> ‘PRINT’</b> button to takeout the print of the webpage.<br/>
+<b>Step 10:</b> Click on <b> ‘RESET’</b> button to reload the webpage.<br/>
