@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRICAL DEVICES</title>
+    <link href="http://fonts.cdnfonts.com/css/zacbel-x" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/foco-trial" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@firestitch/jsplumb@2.12.0/dist/js/jsplumb.min.js"></script>
+    <link href="http://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        footer {
+          text-align: center;
+          padding: 3px;
+          background-color: #606471;
+          color: white;
+        }
+
+        .container {
+
+      padding-bottom: 20px;
+
+}
+
+
+        </style>
+        
+</head>
+
+<body>
+    <div class="container">
+        <div class="instructions" id="instTab">
+            <div class="insHeading">
+                <p>Instructions</p>
+
+                <ul class="steps" style="list-style-type: none;">
+                    <li><p><b>Step 1:</b></p> <p style="margin-top: -15px;">The aim of this experiment is to get familiarized with the electrical devices.</p></li>
+                    <li><p><b>Step 2:</b></p> <p style="margin-top: -15px;">Click on ‘Next’ Button to view the next electrical device.</li>
+                    <li><p><b>Step 3:</b></p> <p style="margin-top: -15px;">Click on ‘Previous’ button to go back to previous electrical device.</li>
+                    <li><p><b>Step 4:</b></p> <p style="margin-top: -15px;">Repeat Step 2 and 3 until you reach the end of the experiment.</li>
+                </ul>
+            </div>
+            <div class="MyLabel">
+                <p>
+                    Instructions
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="heading">
+
+                <p style="margin-top: 10px; text-align: center;"><b> TO GET FAMILIARIZED WITH THE ELECTRICAL DEVICES.</b></p>
+
+            </div>
+
+            <div class="control-panel">
+
+                <div class="control-panel-buttons">
+                    <form action="index.html">
+                        <input type="submit" value="PREVIOUS" id="previous">
+                    </form>
+                    <p><b>VOLTMETER </b></p>
+
+                    <form action="wattmeter.html" id="next">
+                        <input type="submit" value="NEXT" />
+                    </form>
+
+                    <!--THIS IS TO BE KEPT IN A FLEX BOX-->
+                </div>
+
+            </div>
+            <!--CONTROL PANEL ENDS HERE-->
+            <div class="discription">
+
+                <p>
+
+                <div align="center">
+
+                    <p> <img src="images/V.png" style="width:250px;height:250px"></p>
+
+                    <p> <strong style="font-size: 20px;"> Figure 1: Analog voltmeter
+                        </strong></p>
+
+                </div><br>
+
+                <p style="text-align: center;">
+                    <ul> 
+             <li>    <p>A voltmeter is an instrument used for measuring electrical potential difference between two points in
+                    an
+                    electric circuit. Voltmeters are made in a wide range of styles. It is connected in parallel across
+                    which we have to measure voltage difference.</p></li>
+              <li>   <p>
+                    It must be connected in parallel in which we want to measure the voltage. Parallel connection is
+                    used
+                    because a voltmeter is constructed in such a way that it has a very high value of resistance. So if
+                    that
+                    high resistance is connected in series than the current flow will be almost zero which means the
+                    circuit
+                    has become open.</p></li>
+                    <li>   <p>
+                    If it is connected in parallel, than the load impedance comes parallel with the high resistance of
+                    the
+                    voltmeter and hence the combination will give almost the same the impedance that the load had. Also
+                    in
+                    parallel circuit we know that the voltage is same so the voltage between the voltmeter and the load
+                    is
+                    almost same and hence voltmeter measures the voltage.For an ideal voltmeter, we have the resistance
+                    is
+                    to be infinity and hence the current drawn to be zero so there will be no power loss in the
+                    instrument.
+                    But this is not achievable practically as we cannot have a material which has infinite resistance.
+                    .</p> </li> 
+              <li><p>Voltmeter has a very large resistance.</p></li>
+               <li> <p>Analog voltmeters moves a pointer across a scale in proportion to the
+                    voltage of the circuit. A moving coil galvanometer can be used as a
+                    voltmeter by inserting a resistor in series with the instrument.</p></li>
+               <li>  <p>Digital voltmeters give a numerical display of voltage by use of an
+                    analog to digital converter. Voltmeters are made in a wide range of
+                    styles.</p></li>
+                
+
+                <b>Analog voltmeter:</b> <br>
+                Analog voltmeters moves a pointer across a scale in proportion to the voltage of the circuit. A moving
+                coil
+                galvanometer can be used as a voltmeter by inserting a resistor in series with the instrument.
+
+                <br>
+                <br>
+
+                <b> Digital voltmeter:</b> <br>
+                <div align="center"> 
+                <p> <img src="images/digital_voltmeter.png" style="width:250px;height:250px"> </p>
+                <p> <strong style="font-size: 20px;"> Figure 2: Digital voltmeter </strong></p>
+                </div><br>
+                Digital voltmeters give a numerical display of voltage by use of an analog to digital converter.
+                Voltmeters are made in a wide range of styles.
+
+                <p>There are various type of voltmeter.</p>
+                <ol type="1">
+                    <li>
+                        <p>Direct coupled DC voltmeter</p>
+                    </li>
+                    <li>
+                        <p>Chopper type DC voltmeter</p>
+                    </li>
+                    <li>
+                        <p>Solid state DC voltmeter</p>
+                    </li>
+                    <li>
+                        <p>AC voltmeter using rectifier</p>
+                    </li>
+                </ol>
+
+                </p>
+                </p>
+            </ul>
+            </div>
+        </div>
+                                           <!--  Footer code  -->
+
+        <footer>
+
+            <p>Copyright@2022 Virtual Labs, IIT Roorkee</p>
+           <!-- <p><a href="mailto:hege@example.com">hege@example.com</a></p>  --> 
+
+          </footer>
+
+</body>
+
+<script src="js/working.js"></script>
+
+</html>

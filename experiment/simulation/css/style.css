@@ -685,7 +685,7 @@ body {
 }
 
 .sliders input {
-    -webkit-appearance: none;
+    appearance: none;
     width: 300px;
     border-radius: 10px;
     background-color: #1e1e1e;

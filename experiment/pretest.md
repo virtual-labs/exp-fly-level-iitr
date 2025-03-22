@@ -1,5 +1,8 @@
 ## Pre test
 #### Please attempt the following questions
+  
+  
+Q1. The dominant mode of a waveguide depends on:<br>
 
 ### Note- Reference books are available in the reference section.
 
